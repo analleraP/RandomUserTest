@@ -1,7 +1,9 @@
-package com.mydrafts.android.randomuser;
+package com.mydrafts.android.randomuser.presentation.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.mydrafts.android.randomuser.R;
 
 public class UsersListActivity extends AppCompatActivity {
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mydrafts.android.randomuser.UsersListActivity">
+    tools:context="com.mydrafts.android.randomuser.presentation.view.UsersListActivity">
 
     <TextView
         android:layout_width="wrap_content"
