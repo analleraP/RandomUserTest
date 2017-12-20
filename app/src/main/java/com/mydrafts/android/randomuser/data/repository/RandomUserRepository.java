@@ -18,6 +18,7 @@ public class RandomUserRepository {
     private static final int RESULTS_AMOUNT = 10;
 
     private final RemoteDataSource remoteDataSource;
+    private final LocalDataSource localDataSource;
     private final UserMapper userMapper;
 
     private int actualPage = 1;
@@ -25,8 +26,9 @@ public class RandomUserRepository {
     private final List<User> users;
 
     @Inject
-    public RandomUserRepository(RemoteDataSource remoteDataSource, UserMapper userMapper) {
+    public RandomUserRepository(RemoteDataSource remoteDataSource, LocalDataSource localDataSource, UserMapper userMapper) {
         this.remoteDataSource = remoteDataSource;
+        this.localDataSource = localDataSource;
         this.userMapper = userMapper;
 
         users = new ArrayList<>();
@@ -46,17 +48,27 @@ public class RandomUserRepository {
 
             //Delete duplicates
             newUsers.removeAll(users);
-        }
 
+            //Delete blacklisted
+            List<User> blacklisted = getBlacklisted();
+            if (blacklisted != null) {
+                newUsers.removeAll(blacklisted);
+            }
+
+            localDataSource.storeUsers(newUsers);
+        }
         return newUsers;
     }
 
-    public User getUserByEmail(String email) {
-        for (User user : users) {
-            if (user.getEmail().equals(email)) {
-                return user;
-            }
-        }
-        return null;
+    public void blacklistUser(User user) {
+        localDataSource.blacklistUser(user);
+    }
+
+    public User getUser(String userId) {
+        return localDataSource.getUser(userId);
+    }
+
+    private List<User> getBlacklisted() {
+        return localDataSource.getBlacklistedUsers();
     }
 }
