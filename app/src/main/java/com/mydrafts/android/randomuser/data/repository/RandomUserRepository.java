@@ -1,54 +1,52 @@
 package com.mydrafts.android.randomuser.data.repository;
 
-import com.mydrafts.android.randomuser.data.entity.PagedResult;
+import com.mydrafts.android.randomuser.data.entity.ListMapper;
+import com.mydrafts.android.randomuser.data.entity.UserMapper;
+import com.mydrafts.android.randomuser.data.entity.apimodel.ApiUser;
+import com.mydrafts.android.randomuser.data.entity.apimodel.PagedResult;
 import com.mydrafts.android.randomuser.data.entity.User;
+import com.mydrafts.android.randomuser.data.exception.NetworkErrorException;
+import com.mydrafts.android.randomuser.data.exception.UnknownErrorException;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import io.reactivex.Observable;
-import io.reactivex.functions.Function;
 
-public class RandomUserRepository implements Repository<User> {
+public class RandomUserRepository {
 
     private static final int RESULTS_AMOUNT = 10;
 
     private final RemoteDataSource remoteDataSource;
+    private final UserMapper userMapper;
 
-    private int actualPage;
+    private int actualPage = 1;
 
     private final List<User> users;
 
-    public RandomUserRepository(RemoteDataSource remoteDataSource) {
+    public RandomUserRepository(RemoteDataSource remoteDataSource, UserMapper userMapper) {
         this.remoteDataSource = remoteDataSource;
+        this.userMapper = userMapper;
 
-        actualPage = 1;
         users = new ArrayList<>();
     }
 
-    @Override
-    public Observable<List<User>> getUsers() {
+    public List<User> getUsers() throws UnknownErrorException, NetworkErrorException {
 
-        return remoteDataSource.getUsers(actualPage, RESULTS_AMOUNT)
-                .flatMap(new Function<PagedResult<User>, Observable<List<User>>>() {
-                    @Override
-                    public Observable<List<User>> apply(PagedResult<User> userPagedResult) throws Exception {
+        PagedResult<ApiUser> response = remoteDataSource.getApiUsers(actualPage, RESULTS_AMOUNT);
 
-                        actualPage++;
+        List<ApiUser> apiUsers = response.getResults();
 
-                        return Observable.just(userPagedResult.getResults());
-                    }
-                })
-                .flatMap(new Function<List<User>, Observable<List<User>>>() {
-                    @Override
-                    public Observable<List<User>> apply(List<User> newUsers) throws Exception {
+        ListMapper<User, ApiUser> userListMapper = new ListMapper<>(userMapper);
+        List<User> newUsers = userListMapper.apiToModel(apiUsers);
 
-                        newUsers.removeAll(users);
+        if (newUsers != null && newUsers.size() > 0) {
+            actualPage++;
 
-                        users.addAll(newUsers);
-                        return Observable.just(newUsers);
-                    }
-                });
+            //Delete duplicates
+            newUsers.removeAll(users);
+        }
+
+        return newUsers;
     }
 
     public User getUserByEmail(String email) {

@@ -1,5 +1,5 @@
 
-package com.mydrafts.android.randomuser.data.entity;
+package com.mydrafts.android.randomuser.data.entity.apimodel;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -58,10 +58,6 @@ public class Name {
 
     public void setLast(String last) {
         this.last = last;
-    }
-
-    public String getFullName() {
-        return getFirst().concat(" ").concat(getLast());
     }
 
 }

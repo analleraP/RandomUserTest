@@ -1,83 +1,41 @@
-
 package com.mydrafts.android.randomuser.data.entity;
 
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
+import android.support.annotation.NonNull;
 
+@Entity(tableName = "users")
 public class User {
 
-    @SerializedName("gender")
-    @Expose
+    @PrimaryKey
+    @NonNull private String id;
+
     private String gender;
-    @SerializedName("name")
-    @Expose
-    private Name name;
-    @SerializedName("location")
-    @Expose
-    private Location location;
-    @SerializedName("email")
-    @Expose
+    private String firstName;
+    private String lastName;
     private String email;
-    @SerializedName("registered")
-    @Expose
-    private String registered;
-    @SerializedName("phone")
-    @Expose
     private String phone;
-    @SerializedName("picture")
-    @Expose
-    private Picture picture;
+    private String street;
+    private String city;
+    private String state;
+    private String registered;
+    private String largePicture;
+    private String mediumPicture;
+    private String thumbnail;
+    private boolean isBlacklisted;
 
     /**
-     * No args constructor for use in serialization
-     * 
+     * avoid object instantiation without required fields
      */
-    public User() {
+    private User() {
     }
 
-    /**
-     * 
-     * @param picture
-     * @param phone
-     * @param email
-     * @param location
-     * @param registered
-     * @param name
-     * @param gender
-     */
-    public User(String gender, Name name, Location location, String email, String registered, String phone, Picture picture) {
-        super();
-        this.gender = gender;
-        this.name = name;
-        this.location = location;
-        this.email = email;
-        this.registered = registered;
-        this.phone = phone;
-        this.picture = picture;
+    public User(@NonNull String id) {
+        this.id = id;
     }
 
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public Name getName() {
-        return name;
-    }
-
-    public void setName(Name name) {
-        this.name = name;
-    }
-
-    public Location getLocation() {
-        return location;
-    }
-
-    public void setLocation(Location location) {
-        this.location = location;
+    public String getId() {
+        return id;
     }
 
     public String getEmail() {
@@ -88,12 +46,32 @@ public class User {
         this.email = email;
     }
 
-    public String getRegistered() {
-        return registered;
+    public String getGender() {
+        return gender;
     }
 
-    public void setRegistered(String registered) {
-        this.registered = registered;
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getFullName() {
+        return getFirstName().concat(" ").concat(getLastName());
     }
 
     public String getPhone() {
@@ -104,12 +82,97 @@ public class User {
         this.phone = phone;
     }
 
-    public Picture getPicture() {
-        return picture;
+    public String getStreet() {
+        return street;
     }
 
-    public void setPicture(Picture picture) {
-        this.picture = picture;
+    public void setStreet(String street) {
+        this.street = street;
     }
 
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public String getAddress() {
+        return getStreet().concat(", ").concat(getCity()).concat(", ").concat(getState());
+    }
+
+    public String getRegistered() {
+        return registered;
+    }
+
+    public void setRegistered(String registered) {
+        this.registered = registered;
+    }
+
+    public String getLargePicture() {
+        return largePicture;
+    }
+
+    public void setLargePicture(String largePicture) {
+        this.largePicture = largePicture;
+    }
+
+    public String getMediumPicture() {
+        return mediumPicture;
+    }
+
+    public void setMediumPicture(String mediumPicture) {
+        this.mediumPicture = mediumPicture;
+    }
+
+    public String getThumbnail() {
+        return thumbnail;
+    }
+
+    public void setThumbnail(String thumbnail) {
+        this.thumbnail = thumbnail;
+    }
+
+    public boolean isBlacklisted() {
+        return isBlacklisted;
+    }
+
+    public void setBlacklisted(boolean blacklisted) {
+        isBlacklisted = blacklisted;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+
+        User user = (User) o;
+
+        return id.equals(user.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return id.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return "User {" + "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
 }

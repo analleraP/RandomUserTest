@@ -1,11 +1,13 @@
 package com.mydrafts.android.randomuser.data.repository;
 
-import com.mydrafts.android.randomuser.data.entity.PagedResult;
-import com.mydrafts.android.randomuser.data.entity.User;
+import com.mydrafts.android.randomuser.data.entity.apimodel.ApiUser;
+import com.mydrafts.android.randomuser.data.entity.apimodel.PagedResult;
+import com.mydrafts.android.randomuser.data.exception.NetworkErrorException;
+import com.mydrafts.android.randomuser.data.exception.UnknownErrorException;
 
-import io.reactivex.Observable;
+import java.io.IOException;
+import retrofit2.Response;
 import retrofit2.Retrofit;
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RemoteDataSource {
@@ -15,19 +17,23 @@ public class RemoteDataSource {
     private final ApiService apiService;
 
     public RemoteDataSource() {
-        this(BASE_ENDPOINT);
-    }
-
-    public RemoteDataSource(String baseEndpoint) {
-        Retrofit retrofit = new Retrofit.Builder().baseUrl(baseEndpoint)
+        Retrofit retrofit = new Retrofit.Builder().baseUrl(BASE_ENDPOINT)
                 .addConverterFactory(GsonConverterFactory.create())
-                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .build();
         apiService = retrofit.create(ApiService.class);
     }
 
-    public Observable<PagedResult<User>> getUsers(int page, int results) {
+    public PagedResult<ApiUser> getApiUsers(int page, int results) throws UnknownErrorException, NetworkErrorException {
+        try {
+            Response<PagedResult<ApiUser>> response = apiService.getRandomUsers(page, results).execute();
 
-        return apiService.getRandomUsers(page, results);
+            if (response.isSuccessful()) {
+                return response.body();
+            } else {
+                throw new UnknownErrorException();
+            }
+        } catch (IOException e) {
+            throw new NetworkErrorException();
+        }
     }
 }

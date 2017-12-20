@@ -1,5 +1,5 @@
 
-package com.mydrafts.android.randomuser.data.entity;
+package com.mydrafts.android.randomuser.data.entity.apimodel;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -56,10 +56,5 @@ public class Location {
 
     public void setState(String state) {
         this.state = state;
-    }
-
-    @Override
-    public String toString() {
-        return getStreet().concat(", ").concat(getCity()).concat(", ").concat(getState());
     }
 }

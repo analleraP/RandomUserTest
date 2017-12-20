@@ -1,5 +1,5 @@
 
-package com.mydrafts.android.randomuser.data.entity;
+package com.mydrafts.android.randomuser.data.entity.apimodel;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;

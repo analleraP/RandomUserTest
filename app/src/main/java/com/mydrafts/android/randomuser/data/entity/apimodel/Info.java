@@ -1,5 +1,5 @@
 
-package com.mydrafts.android.randomuser.data.entity;
+package com.mydrafts.android.randomuser.data.entity.apimodel;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
