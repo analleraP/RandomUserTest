@@ -6,6 +6,9 @@ import com.mydrafts.android.randomuser.data.exception.NetworkErrorException;
 import com.mydrafts.android.randomuser.data.exception.UnknownErrorException;
 
 import java.io.IOException;
+
+import javax.inject.Inject;
+
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -16,6 +19,7 @@ public class RemoteDataSource {
 
     private final ApiService apiService;
 
+    @Inject
     public RemoteDataSource() {
         Retrofit retrofit = new Retrofit.Builder().baseUrl(BASE_ENDPOINT)
                 .addConverterFactory(GsonConverterFactory.create())

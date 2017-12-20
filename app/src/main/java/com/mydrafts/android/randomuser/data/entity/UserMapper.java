@@ -8,8 +8,11 @@ import com.mydrafts.android.randomuser.data.entity.apimodel.Picture;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+import javax.inject.Inject;
+
 public class UserMapper implements Mapper<User, ApiUser> {
 
+    @Inject
     public UserMapper() {
     }
 

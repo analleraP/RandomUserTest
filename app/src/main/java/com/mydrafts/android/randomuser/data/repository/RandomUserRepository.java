@@ -11,6 +11,7 @@ import com.mydrafts.android.randomuser.data.exception.UnknownErrorException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.inject.Inject;
 
 public class RandomUserRepository {
 
@@ -23,6 +24,7 @@ public class RandomUserRepository {
 
     private final List<User> users;
 
+    @Inject
     public RandomUserRepository(RemoteDataSource remoteDataSource, UserMapper userMapper) {
         this.remoteDataSource = remoteDataSource;
         this.userMapper = userMapper;
