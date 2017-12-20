@@ -5,11 +5,11 @@ import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Response {
+public class PagedResult<T> {
 
     @SerializedName("results")
     @Expose
-    private List<User> results;
+    private List<T> results;
     @SerializedName("info")
     @Expose
     private Info info;
@@ -18,7 +18,7 @@ public class Response {
      * No args constructor for use in serialization
      * 
      */
-    public Response() {
+    public PagedResult() {
     }
 
     /**
@@ -26,17 +26,17 @@ public class Response {
      * @param results
      * @param info
      */
-    public Response(List<User> results, Info info) {
+    public PagedResult(List<T> results, Info info) {
         super();
         this.results = results;
         this.info = info;
     }
 
-    public List<User> getResults() {
+    public List<T> getResults() {
         return results;
     }
 
-    public void setResults(List<User> results) {
+    public void setResults(List<T> results) {
         this.results = results;
     }
 

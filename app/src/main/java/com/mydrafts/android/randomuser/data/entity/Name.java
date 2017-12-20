@@ -60,4 +60,8 @@ public class Name {
         this.last = last;
     }
 
+    public String getFullName() {
+        return getFirst().concat(" ").concat(getLast());
+    }
+
 }

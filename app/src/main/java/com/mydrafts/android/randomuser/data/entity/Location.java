@@ -15,9 +15,6 @@ public class Location {
     @SerializedName("state")
     @Expose
     private String state;
-    @SerializedName("postcode")
-    @Expose
-    private int postcode;
 
     /**
      * No args constructor for use in serialization
@@ -28,15 +25,13 @@ public class Location {
     /**
      * @param street
      * @param state
-     * @param postcode
      * @param city
      */
-    public Location(String street, String city, String state, int postcode) {
+    public Location(String street, String city, String state) {
         super();
         this.street = street;
         this.city = city;
         this.state = state;
-        this.postcode = postcode;
     }
 
     public String getStreet() {
@@ -63,12 +58,8 @@ public class Location {
         this.state = state;
     }
 
-    public int getPostcode() {
-        return postcode;
+    @Override
+    public String toString() {
+        return getStreet().concat(", ").concat(getCity()).concat(", ").concat(getState());
     }
-
-    public void setPostcode(Integer postcode) {
-        this.postcode = postcode;
-    }
-
 }
