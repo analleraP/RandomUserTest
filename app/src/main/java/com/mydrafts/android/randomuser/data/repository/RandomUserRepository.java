@@ -12,7 +12,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
+import javax.inject.Singleton;
 
+@Singleton
 public class RandomUserRepository {
 
     private static final int RESULTS_AMOUNT = 10;

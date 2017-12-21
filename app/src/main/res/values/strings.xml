@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RandomUser</string>
+    <string name="user_picture_description">user picture description</string>
+    <string name="users_list_empty">Sorry no random users for now :(</string>
 </resources>

@@ -6,11 +6,7 @@ import com.mydrafts.android.randomuser.presentation.view.UsersListActivity;
 import dagger.Subcomponent;
 
 @ActivityScope
-@Subcomponent(
-        modules = {
-                ActivityModule.class
-        }
-)
+@Subcomponent(modules = ActivityModule.class)
 public interface ActivityComponent {
 
     void inject(UsersListActivity activity);

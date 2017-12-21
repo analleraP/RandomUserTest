@@ -2,6 +2,7 @@ package com.mydrafts.android.randomuser;
 
 import android.app.Application;
 import android.content.Context;
+import android.support.annotation.VisibleForTesting;
 
 import com.mydrafts.android.randomuser.di.AppComponent;
 import com.mydrafts.android.randomuser.di.AppModule;
@@ -25,6 +26,11 @@ public class RandomUserApplication extends Application {
 
     public static RandomUserApplication get(Context context) {
         return (RandomUserApplication) context.getApplicationContext();
+    }
+
+    @VisibleForTesting
+    public void setComponent(AppComponent appComponent) {
+        appComponent = appComponent;
     }
 
 }
