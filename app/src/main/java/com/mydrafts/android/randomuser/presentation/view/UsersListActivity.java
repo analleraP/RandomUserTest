@@ -1,5 +1,6 @@
 package com.mydrafts.android.randomuser.presentation.view;
 
+import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -43,6 +44,7 @@ public class UsersListActivity extends AppCompatActivity implements UsersListPre
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_users_list);
+
         initializeButterKnife();
         initializeDagger();
         initializePresenter();
@@ -72,6 +74,11 @@ public class UsersListActivity extends AppCompatActivity implements UsersListPre
     @Override
     public void showUsersList(List<User> users) {
         adapter.addUsers(users);
+    }
+
+    @Override
+    public void openUserDetailsScreen(User user) {
+        UserDetailsActivity.open(this, user.getId());
     }
 
     /////// Private methods ///////

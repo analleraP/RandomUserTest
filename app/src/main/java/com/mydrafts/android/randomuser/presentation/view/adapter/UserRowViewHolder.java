@@ -14,7 +14,6 @@ import com.squareup.picasso.Picasso;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class UserRowViewHolder extends RecyclerView.ViewHolder {
 
@@ -32,31 +31,30 @@ public class UserRowViewHolder extends RecyclerView.ViewHolder {
     }
 
     public void render(User user) {
-        renderUserAvatar(user.getThumbnail());
-        renderUserName(user.getFullName());
-        renderUserEmail(user.getEmail());
-        renderUserPhone(user.getPhone());
+        renderUser(user);
+
+        hookListeners(user);
     }
 
-    private void renderUserAvatar(String photo) {
+    private void hookListeners(final User user) {
+        avatarImageView.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View v) {
+                presenter.onUserClicked(user);
+            }
+        });
+    }
+
+    private void renderUser(User user) {
         Picasso.with(getContext())
-                .load(photo)
+                .load(user.getThumbnail())
                 .transform(new PicassoCircleTransformation())
                 .fit()
                 .centerCrop()
                 .into(avatarImageView);
-    }
 
-    private void renderUserName(String name) {
-        nameTextView.setText(name);
-    }
-
-    private void renderUserEmail(String email) {
-        emailTextView.setText(email);
-    }
-
-    private void renderUserPhone(String phone) {
-        phoneTextView.setText(phone);
+        nameTextView.setText(user.getFullName());
+        emailTextView.setText(user.getEmail());
+        phoneTextView.setText(user.getPhone());
     }
 
     private Context getContext() {

@@ -56,6 +56,10 @@ public class UsersListPresenter extends Presenter<UsersListPresenter.View> {
         });
     }
 
+    public void onUserClicked(User user) {
+        getView().openUserDetailsScreen(user);
+    }
+
     public interface View extends Presenter.View {
 
         void showEmptyView();
@@ -65,5 +69,7 @@ public class UsersListPresenter extends Presenter<UsersListPresenter.View> {
         void showErrorView(String message);
 
         void showUsersList(List<User> users);
+
+        void openUserDetailsScreen(User user);
     }
 }
