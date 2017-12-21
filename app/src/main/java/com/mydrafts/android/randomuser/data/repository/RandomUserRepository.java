@@ -57,6 +57,7 @@ public class RandomUserRepository {
                 newUsers.removeAll(blacklisted);
             }
 
+            users.addAll(newUsers);
             localDataSource.storeUsers(newUsers);
         }
         return newUsers;
