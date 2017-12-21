@@ -40,6 +40,22 @@ public class UsersListPresenter extends Presenter<UsersListPresenter.View> {
         });
     }
 
+    public void onLoadMoreUsers() {
+        getUsersUseCase.getUsers(new UseCaseCallback<List<User>>() {
+            @Override
+            public void onSuccess(List<User> users) {
+                View view = getView();
+                view.showUsersList(users);
+            }
+
+            @Override
+            public void onError(Error error) {
+                getView().showErrorView(error.message());
+            }
+
+        });
+    }
+
     public interface View extends Presenter.View {
 
         void showEmptyView();

@@ -1,5 +1,6 @@
 package com.mydrafts.android.randomuser.presentation.view.adapter;
 
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,15 +25,42 @@ public class UsersListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
     private final int VIEW_ITEM = 1;
     private final int VIEW_PROGRESS_BAR = 0;
 
+    private int visibleThreshold = 5;
+    private int lastVisibleItem, totalItemCount;
+    private boolean isLoading;
+
     @Inject
-    public UsersListAdapter(final UsersListPresenter presenter) {
+    public UsersListAdapter(final UsersListPresenter presenter, RecyclerView recyclerView) {
         this.presenter = presenter;
         users = new ArrayList<>();
 
+        if(recyclerView.getLayoutManager() instanceof LinearLayoutManager){
+            final LinearLayoutManager linearLayoutManager = (LinearLayoutManager)recyclerView.getLayoutManager();
+            recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+
+                @Override
+                public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                    super.onScrolled(recyclerView, dx, dy);
+                    totalItemCount = linearLayoutManager.getItemCount();
+                    lastVisibleItem = linearLayoutManager.findLastVisibleItemPosition();
+
+                    if (!isLoading && totalItemCount <= (lastVisibleItem + visibleThreshold)) {
+                        if (users.isEmpty()) {
+                            presenter.onLoadInitialUsers();
+                        } else {
+                            presenter.onLoadMoreUsers();
+                        }
+                        isLoading = true;
+                    }
+                }
+            });
+        }
     }
 
     public void addUsers(List<User> newUsers) {
         users.addAll(newUsers);
+        notifyDataSetChanged();
+        isLoading = false;
     }
 
     @Override

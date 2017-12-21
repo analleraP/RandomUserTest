@@ -49,8 +49,6 @@ public class UsersListActivity extends AppCompatActivity implements UsersListPre
         initializeRecyclerView();
 
         toolbar.setTitle(getResources().getString(R.string.app_name));
-
-        presenter.onLoadInitialUsers();
     }
 
     /////// UserListPresenter View ///////
@@ -74,7 +72,6 @@ public class UsersListActivity extends AppCompatActivity implements UsersListPre
     @Override
     public void showUsersList(List<User> users) {
         adapter.addUsers(users);
-        adapter.notifyDataSetChanged();
     }
 
     /////// Private methods ///////
@@ -101,7 +98,7 @@ public class UsersListActivity extends AppCompatActivity implements UsersListPre
                 DividerItemDecoration.VERTICAL);
         recyclerView.addItemDecoration(dividerItemDecoration);
 
-        adapter = new UsersListAdapter(presenter);
+        adapter = new UsersListAdapter(presenter, recyclerView);
 
         recyclerView.setAdapter(adapter);
     }
