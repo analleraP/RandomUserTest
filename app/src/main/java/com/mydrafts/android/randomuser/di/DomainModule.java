@@ -5,6 +5,7 @@ import android.arch.persistence.room.Room;
 
 import com.mydrafts.android.randomuser.data.db.UserDao;
 import com.mydrafts.android.randomuser.data.db.UserDatabase;
+import com.mydrafts.android.randomuser.data.repository.LocalDataSource;
 
 import javax.inject.Singleton;
 

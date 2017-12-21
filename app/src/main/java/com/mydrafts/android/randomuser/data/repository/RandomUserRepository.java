@@ -1,10 +1,10 @@
 package com.mydrafts.android.randomuser.data.repository;
 
 import com.mydrafts.android.randomuser.data.entity.ListMapper;
+import com.mydrafts.android.randomuser.data.entity.User;
 import com.mydrafts.android.randomuser.data.entity.UserMapper;
 import com.mydrafts.android.randomuser.data.entity.apimodel.ApiUser;
 import com.mydrafts.android.randomuser.data.entity.apimodel.PagedResult;
-import com.mydrafts.android.randomuser.data.entity.User;
 import com.mydrafts.android.randomuser.data.exception.NetworkErrorException;
 import com.mydrafts.android.randomuser.data.exception.UnknownErrorException;
 

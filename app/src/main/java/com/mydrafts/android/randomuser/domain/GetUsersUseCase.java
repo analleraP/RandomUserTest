@@ -5,7 +5,6 @@ import android.os.Looper;
 
 import com.mydrafts.android.randomuser.data.entity.User;
 import com.mydrafts.android.randomuser.data.exception.NetworkErrorException;
-import com.mydrafts.android.randomuser.data.exception.UnknownErrorException;
 import com.mydrafts.android.randomuser.data.repository.RandomUserRepository;
 
 import java.util.List;
