@@ -47,4 +47,14 @@
 
     </RelativeLayout>
 
+    <ImageButton
+        android:id="@+id/ib_row_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_action_delete" />
+
 </LinearLayout>

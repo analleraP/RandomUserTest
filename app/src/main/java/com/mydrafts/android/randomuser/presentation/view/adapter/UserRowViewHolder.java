@@ -3,6 +3,7 @@ package com.mydrafts.android.randomuser.presentation.view.adapter;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -23,6 +24,7 @@ public class UserRowViewHolder extends RecyclerView.ViewHolder {
     @BindView(R.id.tv_row_name) TextView nameTextView;
     @BindView(R.id.tv_row_email) TextView emailTextView;
     @BindView(R.id.tv_row_phone) TextView phoneTextView;
+    @BindView(R.id.ib_row_delete) ImageButton deleteImageButton;
 
     public UserRowViewHolder(View itemView, UsersListPresenter presenter) {
         super(itemView);
@@ -40,6 +42,12 @@ public class UserRowViewHolder extends RecyclerView.ViewHolder {
         avatarImageView.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
                 presenter.onUserClicked(user);
+            }
+        });
+
+        deleteImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View view) {
+                presenter.onDeleteUser(user, getAdapterPosition());
             }
         });
     }

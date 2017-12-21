@@ -106,6 +106,11 @@ public class UsersListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         }
     }
 
+    public void deleteRow(int position) {
+        users.remove(position);
+        notifyItemRemoved(position);
+    }
+
     /**
      * Method to find where should be the footer
      *

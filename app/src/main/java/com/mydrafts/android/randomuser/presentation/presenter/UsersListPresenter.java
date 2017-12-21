@@ -2,6 +2,7 @@ package com.mydrafts.android.randomuser.presentation.presenter;
 
 import com.mydrafts.android.randomuser.data.entity.User;
 import com.mydrafts.android.randomuser.di.ActivityScope;
+import com.mydrafts.android.randomuser.domain.BlacklistUserUseCase;
 import com.mydrafts.android.randomuser.domain.GetUsersUseCase;
 import com.mydrafts.android.randomuser.domain.UseCaseCallback;
 
@@ -13,10 +14,12 @@ import javax.inject.Inject;
 public class UsersListPresenter extends Presenter<UsersListPresenter.View> {
 
     private final GetUsersUseCase getUsersUseCase;
+    private final BlacklistUserUseCase blacklistUserUseCase;
 
     @Inject
-    public UsersListPresenter(GetUsersUseCase getUsersUseCase) {
+    public UsersListPresenter(GetUsersUseCase getUsersUseCase, BlacklistUserUseCase blacklistUserUseCase) {
         this.getUsersUseCase = getUsersUseCase;
+        this.blacklistUserUseCase = blacklistUserUseCase;
     }
 
     public void onLoadInitialUsers() {
@@ -56,6 +59,20 @@ public class UsersListPresenter extends Presenter<UsersListPresenter.View> {
         });
     }
 
+    public void onDeleteUser(User user, final int position) {
+        blacklistUserUseCase.blacklistUser(user, new UseCaseCallback<User>() {
+            @Override
+            public void onSuccess(User user) {
+                getView().deleteUser(user, position);
+            }
+
+            @Override
+            public void onError(Error error) {
+                getView().showErrorView(error.message());
+            }
+        });
+    }
+
     public void onUserClicked(User user) {
         getView().openUserDetailsScreen(user);
     }
@@ -71,5 +88,7 @@ public class UsersListPresenter extends Presenter<UsersListPresenter.View> {
         void showUsersList(List<User> users);
 
         void openUserDetailsScreen(User user);
+
+        void deleteUser(User user, int position);
     }
 }
