@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="action_accept">Accept</string>
+  <string name="action_activate">Activate</string>
+  <string name="action_add">Add</string>
+  <string name="action_add_vehicle">Add new vehicle</string>
+  <string name="action_assign">Assign</string>
+  <string name="action_available">I\'m available</string>
+  <string name="action_available_now">Yes, I\'m available</string>
+  <string name="action_back">Back</string>
+  <string name="action_book">Book spot</string>
+  <string name="action_cancel">Cancel</string>
+  <string name="action_close">Close</string>
+  <string name="action_confirm_booking">Confirm reservation</string>
+  <string name="action_contact_us">Contact us</string>
+  <string name="action_continue">Continue</string>
+  <string name="action_end">Finish</string>
+  <string name="action_exit">Go back</string>
+  <string name="action_know_more">Learn more</string>
+  <string name="action_login">Login</string>
+  <string name="action_next">Next</string>
+  <string name="action_no">No</string>
+  <string name="action_not_available">No, I\'m busy</string>
+  <string name="action_not_now">Not now</string>
+  <string name="action_ok">OK</string>
+  <string name="action_open_camera">Take a photo</string>
+  <string name="action_open_gallery">Select from the gallery</string>
+  <string name="action_receive_sms">Receive SMS</string>
+  <string name="action_save">Save</string>
+  <string name="action_send">Send</string>
+  <string name="action_skip">Skip</string>
+  <string name="action_start">Start</string>
+  <string name="action_understood">OK, understood</string>
+  <string name="action_upload_picture">Upload photo</string>
+  <string name="action_yes">Yes</string>
+  <string name="app_error_client_message">There was an error in the app.
+Please retry.</string>
+  <string name="app_error_client_small">The app failed. Please retry.</string>
+  <string name="app_error_client_title">Something went wrong</string>
+  <string name="app_error_connection_message">It seems you don\'t have
+Internet connection</string>
+  <string name="app_error_connection_small">It seems you don\'t have Internet connection</string>
+  <string name="app_error_connection_title">Uh-oh...</string>
+  <string name="app_error_recover_password">Sorry, something went wrong while retrieving the password. Please contact us to find a solution.</string>
+  <string name="app_error_recover_password_invalid">Sorry, the link has expired</string>
+  <string name="app_error_server_message">We had a problem trying to reach the server.
+Please try again later.</string>
+  <string name="app_error_server_small">Failed reaching server. Try again later.</string>
+  <string name="app_error_server_title">Something went wrong</string>
+  <string name="app_error_unknown_message">Don\'t worry, we\'re already working on it</string>
+  <string name="app_error_unknown_small">Oops! Something went wrong...</string>
+  <string name="app_error_unknown_title">It seems that something went wrong... :-/</string>
+  <string name="app_name">Ontruck</string>
+  <string name="app_url_recover_password">https://ontruck-com.typeform.com/to/KT1GTx</string>
+  <string name="app_version">Version %s</string>
+  <string name="billing_detail_address">Fiscal address</string>
+  <string name="billing_detail_bill_type_direct">Direct estimation</string>
+  <string name="billing_detail_bill_type_irpf">IRPF 1%</string>
+  <string name="billing_detail_choose_bill_type">How do you want us to bill you?</string>
+  <string name="billing_detail_city">Location</string>
+  <string name="billing_detail_iban">Bank account (IBAN)</string>
+  <string name="billing_detail_name">Name and surname</string>
+  <string name="billing_detail_name_company">Company name</string>
+  <string name="billing_detail_postal_code">Postal Code</string>
+  <string name="billing_detail_request_update">Request change</string>
+  <string name="billing_detail_request_update_response">We have sent you an email with instructions on how to update your billing information.</string>
+  <string name="billing_detail_title">Billing information</string>
+  <string name="billing_edit_cancel_message">If you leave the screen, the completed information will be lost</string>
+  <string name="billing_edit_confirmation_message">Are you sure you want to save these new details?</string>
+  <string name="billing_type_company">I am a company</string>
+  <string name="billing_type_none">No</string>
+  <string name="billing_type_self_employee">I am self-employed</string>
+  <string name="billing_type_title_type">Enter the data to be able to pay you</string>
+  <string name="billing_type_title_vat">Are you registered for VAT?</string>
+  <string name="billing_type_vat">Yes</string>
+  <string name="booking_max_distance_disclaimer">Maximum distance of each load from the collection point to the drop off point.</string>
+  <string name="booking_multiple_card_message">Minimum of one load guaranteed. Work with us from Monday to Friday.</string>
+  <string name="booking_multiple_card_title" formatted="false">Places for %s
+from %s to %s</string>
+  <string name="booking_offer_action">See shifts and places</string>
+  <string name="booking_offer_warranty">Ontruck guarantee</string>
+  <string name="booking_offer_warranty_detail">If we do not assign you any load during the shift, we will compensate you with {profit}.</string>
+  <string name="booking_slots_assigned" formatted="false">%d/%d available places</string>
+  <plurals name="booking_slots_available">
+    <item quantity="one">%d available place</item>
+    <item quantity="other">%d available places</item>
+  </plurals>
+  <plurals name="booking_slots_book">
+    <item quantity="one">%d reserved place</item>
+    <item quantity="other">%d reserved places </item>
+  </plurals>
+  <string name="booking_time_slots_chooser_section">Reserve places on the shift that interests you:</string>
+  <string name="booking_time_slots_chooser_title">Shifts and places</string>
+  <string name="booking_unavailable_slots_message">Sorry, the available places have all been taken in one of the selected shifts</string>
+  <string name="booking_unavailable_slots_title">Places not available</string>
+  <string name="camara_review_nok">No</string>
+  <string name="camara_review_ok">Yes</string>
+  <string name="camera_howto_first_subtitle">POD must be completely captured and centered in the photo</string>
+  <string name="camera_howto_first_text">Place the POD on a flat surface directly in front of your camera
+1. Must be in the middle of the frame
+2. Must be captured entirely within the frame, without the edges being cut out
+3. There should be at least some clearance between the edge of the frame and the edge of the POD
+4. There shouldn’t be fingers, shadows or other obstructions covering the document</string>
+  <string name="camera_howto_right">Do</string>
+  <string name="camera_howto_second_subtitle">POD must be easy to read</string>
+  <string name="camera_howto_second_text">Take the picture in a well-lit area or use the flash
+1. POD should not look too dark or too bright
+2. There shouldn’t be any shadows on it
+3. Try to make sure that the document does not have strong wrinkles or fold lines
+4. Letters and numbers must be easy to read</string>
+  <string name="camera_howto_title">How to improve your pictures</string>
+  <string name="camera_howto_wrong">Don’t do</string>
+  <string name="camera_process_crop_accept">OK, done</string>
+  <string name="camera_process_crop_cancel">Repeat</string>
+  <string name="camera_process_crop_found_message">Are the circles over the POD’s corners?
+If not, drag the circles so that they are placed on the corners.</string>
+  <string name="camera_process_crop_not_found_message">Drag the circles so that they are on the corners of the POD</string>
+  <string name="camera_process_ko_contrast_message">It seems that this picture doesn’t have enough contrast</string>
+  <string name="camera_process_ko_focus_message">It seems that this picture doesn’t have enough focus</string>
+  <string name="camera_process_ok_accept">Yes, It’s ok</string>
+  <string name="camera_process_ok_cancel">No</string>
+  <string name="camera_process_ok_message">Does the POD look centered, sharp, and easy to read?</string>
+  <string name="camera_process_warning_accept">No, It’s ok</string>
+  <string name="camera_process_warning_cancel">Yes</string>
+  <string name="camera_process_warning_contrast_message">Does the POD look too dark?</string>
+  <string name="camera_process_warning_focus_contrast_message">Does the POD look too dark and unfocused?</string>
+  <string name="camera_process_warning_focus_message">Does the POD look too unfocused?</string>
+  <string name="cargo_manifest_uploader_camera_toast">Center the POD and make sure there is a margin around it</string>
+  <string name="cargo_manifest_uploader_dont_have">I don\'t have this POD</string>
+  <string name="cargo_manifest_uploader_error_sending">We couldn\'t upload the POD. Please try again in a few moments.</string>
+  <string name="cargo_manifest_uploader_error_uploading">We couldn\'t upload the photo. Please try again in a few moments.</string>
+  <string name="cargo_manifest_uploader_finish_journey">Done, job completed</string>
+  <string name="cargo_manifest_uploader_next_cargo_manifest">Go to next POD</string>
+  <string name="cargo_manifest_uploader_not_available_alert_action">Accept</string>
+  <string name="cargo_manifest_uploader_not_available_alert_message">If you did not receive a POD from the shipper you have two options:
+1. You can use your company POD
+2. You can fill out a blank sheet with the information we gave you in the app. It is important that it\'s signed at the drop off location(s)</string>
+  <string name="cargo_manifest_uploader_not_available_alert_title">You need the POD to continue</string>
+  <string name="cargo_manifest_uploader_permissions_needed">You must accept the permission to take the photo</string>
+  <string name="cargo_manifest_uploader_send_cargo_manifest">Done, upload POD</string>
+  <string name="cargo_manifest_uploader_title">POD %s</string>
+  <string name="chat_attachment_menu_camera">Camera</string>
+  <string name="chat_attachment_menu_gallery">Photo Gallery</string>
+  <string name="chat_attachment_menu_location">Location</string>
+  <string name="chat_call">Call</string>
+  <string name="chat_message_placeholder">Message</string>
+  <string name="chat_send">Send</string>
+  <string name="commercial_emails_alert_accept">Accept</string>
+  <string name="commercial_emails_alert_message">We would like to send you emails related to Ontruck’s news and services.</string>
+  <string name="commercial_emails_alert_reject">Don\'t accept</string>
+  <string name="driver_add_accept">Add driver</string>
+  <string name="driver_add_body">If you add drivers you will have the option to assign them loads. If you work alone, you do not need to add driver.</string>
+  <string name="driver_add_driver_title">Add new driver</string>
+  <string name="driver_add_skip">Skip</string>
+  <string name="driver_add_title">Do you work with more drivers?
+You can add them here</string>
+  <string name="driver_detail_choose_dispatcher">Do you want this driver to see the prices and manage jobs?</string>
+  <string name="driver_detail_is_dispatchee">No</string>
+  <string name="driver_detail_is_dispatcher">Yes</string>
+  <string name="driver_detail_last_name">Surname</string>
+  <string name="driver_detail_name">Name</string>
+  <string name="driver_detail_phone">Phone</string>
+  <string name="driver_detail_title">Driver\'s information</string>
+  <string name="driver_dialog_add_driver">Do you want to add more drivers?</string>
+  <string name="driver_list_you">(You)</string>
+  <string name="driver_type_admin">Transport Manager</string>
+  <string name="driver_type_default">Driver</string>
+  <string name="earnings_month_earned">This Month</string>
+  <string name="error_document_of_control_not_found">Error. Document not available.</string>
+  <string name="error_login_message">Incorrect user or password.</string>
+  <string name="error_login_title">Wrong login details</string>
+  <string name="error_obtaining_location">Failed to get location</string>
+  <string name="error_phone_call">Error initiating the call. Contact us on %s</string>
+  <string name="friday">Friday</string>
+  <string name="gps_bar_subtitle">Tap here to view your jobs</string>
+  <string name="gps_bar_title">Ontruck job in progress</string>
+  <string name="jobs_card_no_driver_assigned">No driver assigned</string>
+  <string name="jobs_card_no_vehicle_assigned">No vehicle assigned</string>
+  <string name="jobs_card_self_assinged">Yours</string>
+  <string name="jobs_card_title_finished">Finished</string>
+  <string name="jobs_card_title_in_progress">In progress</string>
+  <string name="jobs_card_title_not_started">Not started</string>
+  <string name="jobs_no_finished">You have not completed a job yet</string>
+  <string name="jobs_no_jobs_subtitle">But that can be solved, 
+check out the offers section</string>
+  <string name="jobs_no_jobs_title">You don\'t have any pending jobs</string>
+  <string name="jobs_no_pod_reminder_accept">I understand</string>
+  <string name="jobs_no_pod_reminder_message">We need you to upload a picture or scan for the pending POD, so that we can proceed to pay you for the job. Thank you for your cooperation!</string>
+  <plurals name="jobs_no_pod_reminder_title">
+    <item quantity="one">You have %d pending POD</item>
+    <item quantity="other">You have %d pending PODs</item>
+  </plurals>
+  <string name="jobs_sections_done">Finished</string>
+  <string name="jobs_sections_pending">Pending</string>
+  <string name="jobs_status_cancelled">Cancelled</string>
+  <string name="jobs_status_unassigned">Unassigned</string>
+  <string name="journey_detail_cancelled">The job has been cancelled</string>
+  <string name="journey_detail_change_driver">Change driver</string>
+  <string name="journey_detail_change_vehicle">Change vehicle</string>
+  <string name="journey_detail_chat">Chat</string>
+  <string name="journey_detail_chat_reorder">Hi, I want to change the route %s stop order</string>
+  <string name="journey_detail_choose_driver">Assign driver</string>
+  <string name="journey_detail_choose_driver_and_vehicle">Assign driver and vehicle</string>
+  <string name="journey_detail_choose_driver_title">Assign a driver</string>
+  <string name="journey_detail_choose_trailer_title">Select a trailer</string>
+  <string name="journey_detail_choose_vehicle">Choose vehicle</string>
+  <string name="journey_detail_choose_vehicle_later">I\'ll choose it later</string>
+  <string name="journey_detail_choose_vehicle_title">Select a vehicle</string>
+  <string name="journey_detail_load_number">#%s</string>
+  <string name="journey_detail_max_height">Maximum pallet height</string>
+  <string name="journey_detail_no_driver_assigned">No driver assigned</string>
+  <string name="journey_detail_no_vehicle_assigned">No vehicle assigned</string>
+  <string name="journey_detail_reorder">Request to change stop order</string>
+  <string name="journey_detail_show_document_of_control">Show document of control</string>
+  <string name="journey_detail_signature_alert_call">Call Ontruck</string>
+  <string name="journey_detail_signature_alert_cancel">Cancel</string>
+  <string name="journey_detail_signature_alert_message">Verify that has been loaded</string>
+  <string name="journey_detail_signature_alert_ok">Load is correct</string>
+  <plurals name="journey_detail_signature_alert_total_items" formatted="false">
+    <item quantity="one">%d pallet - total %s</item>
+    <item quantity="other">%d pallets - total %s</item>
+  </plurals>
+  <string name="journey_detail_standstill_banner_action">I\'m in a standstill</string>
+  <string name="journey_detail_standstill_banner_message">You\'ve been at %s for a long time.</string>
+  <string name="journey_detail_status_button_arrived">Arrived at %s</string>
+  <string name="journey_detail_status_button_arrived_time" formatted="false">Arrived at %s at %s</string>
+  <string name="journey_detail_status_button_default">Continue</string>
+  <string name="journey_detail_status_button_departed">On my way to %s</string>
+  <string name="journey_detail_status_button_dropped_off">Unloaded</string>
+  <string name="journey_detail_status_button_finished">Done, job completed</string>
+  <string name="journey_detail_status_button_launch_manifest">Upload photo of POD</string>
+  <string name="journey_detail_status_button_picked_up">Loaded</string>
+  <string name="journey_detail_status_button_started">Start job</string>
+  <string name="journey_detail_status_feedback_ok">Updated</string>
+  <string name="journey_detail_stop_ask_for">Ask for %s</string>
+  <string name="journey_detail_stop_comment">Instructions</string>
+  <string name="journey_detail_stop_dropoff">Drop off</string>
+  <plurals name="journey_detail_stop_load_cooled">
+    <item quantity="one">refrigerated</item>
+    <item quantity="other">refrigerated</item>
+  </plurals>
+  <string name="journey_detail_stop_load_custom_size" formatted="false">(%s cm x %s cm)</string>
+  <plurals name="journey_detail_stop_load_frozen">
+    <item quantity="one">frozen</item>
+    <item quantity="other">frozen</item>
+  </plurals>
+  <plurals name="journey_detail_stop_load_title_dropoff">
+    <item quantity="one">Deliver %d pallet</item>
+    <item quantity="other">Deliver %d pallets</item>
+  </plurals>
+  <plurals name="journey_detail_stop_load_title_pickup">
+    <item quantity="one">Collect %d pallet</item>
+    <item quantity="other">Collect %d pallets</item>
+  </plurals>
+  <string name="journey_detail_stop_load_total_weight">Total weight: %s</string>
+  <string name="journey_detail_stop_mix">Stop</string>
+  <string name="journey_detail_stop_pickup">Collection</string>
+  <string name="journey_detail_stop_reference">Reference number</string>
+  <string name="journey_detail_stop_status_bar_at_place">Arrived</string>
+  <string name="journey_detail_stop_status_bar_cancelled">Cancelled</string>
+  <string name="journey_detail_stop_status_bar_done">Done</string>
+  <string name="journey_detail_stop_status_bar_employee_at_place">%s has arrived</string>
+  <string name="journey_detail_stop_status_bar_employee_on_the_way">%s is on the way</string>
+  <string name="journey_detail_stop_status_bar_loading">At pick-up point</string>
+  <string name="journey_detail_stop_status_bar_missing_manifest">POD is missing</string>
+  <string name="journey_detail_stop_status_bar_on_the_way">On the way</string>
+  <string name="journey_detail_stop_status_bar_running_late">Running late</string>
+  <string name="journey_detail_stop_status_bar_standstill">Waiting in standstill</string>
+  <string name="journey_detail_stop_status_bar_unloading">At drop-off point</string>
+  <string name="journey_detail_too_eary_warning_message">There are more than 4 hours until you need to be at the collection point. Are you sure you want to start now?</string>
+  <string name="journey_detail_too_eary_warning_no">No</string>
+  <string name="journey_detail_too_eary_warning_yes">Yes, start</string>
+  <string name="journey_detail_total_weight">Total weight</string>
+  <string name="journey_detail_unload_alert_message">Verify that has been unloaded</string>
+  <string name="journey_detail_unload_alert_ok">Unload is correct</string>
+  <string name="journey_detail_weight">Weight</string>
+  <string name="journey_dialog_next_stop_later">No, I will go later</string>
+  <string name="journey_dialog_next_stop_title">Are you going to the next stop?</string>
+  <string name="journey_dialog_start_journey_accept">Yes, I\'m starting</string>
+  <string name="journey_dialog_start_journey_cancel">No, I\'ll start later</string>
+  <string name="journey_dialog_start_journey_message">Keep your status up-to-date. If you don’t, you may lose top offers.</string>
+  <string name="journey_dialog_start_journey_title">Are you going to start this job?</string>
+  <string name="journey_dialog_unassign_message">You have 5 minutes from now to review it and reject it if you can\'t do it.</string>
+  <string name="journey_dialog_unassign_message_extended">If for some reason you can’t do the job, reject it soon as possible so we can find another driver for this customer.</string>
+  <string name="journey_dialog_unassign_title">The job is yours!</string>
+  <string name="journey_dialog_wrong_advance_message">Update each status at the correct time. If you don’t, you may lose top jobs.</string>
+  <string name="journey_dialog_wrong_advance_title">Please, do not do that...</string>
+  <plurals name="journey_list_number_collapsed_stops">
+    <item quantity="one">and %d more stop</item>
+    <item quantity="other">and %d more stops</item>
+  </plurals>
+  <string name="journey_reference_number">J%s</string>
+  <string name="journey_review_title">Rate the shipment</string>
+  <string name="journey_review_url">https://ontruck-com.typeform.com/to/s5RI91?job_id=%d</string>
+  <string name="journey_unassign_action">I can\'t do this job</string>
+  <string name="link_terms_and_conditions">privacy terms and conditions</string>
+  <string name="login_password">Code</string>
+  <string name="login_phone">Phone number</string>
+  <string name="login_sign_up_link">I don\'t have an account</string>
+  <string name="logout_loader_message">Wait a moment</string>
+  <string name="logout_loader_title">Logging out</string>
+  <string name="mail_subject_sending_documents">Sending Documents</string>
+  <string name="monday">Monday</string>
+  <string name="notification_channel_alerts">Alerts</string>
+  <string name="notification_channel_chat">Chat</string>
+  <string name="notification_channel_location">Location</string>
+  <string name="notification_channel_offers">Offers</string>
+  <string name="notification_pending_pod_message">Don’t forget to take a photo of the POD</string>
+  <string name="notification_update_status_action_chat">Ontruck Chat</string>
+  <string name="notification_update_status_action_chat_short">Chat</string>
+  <string name="notification_update_status_action_no">Not yet</string>
+  <string name="notification_update_status_action_no_short">No</string>
+  <string name="notification_update_status_action_yes">Yes</string>
+  <string name="offer_accept_checking">Checking if the job is yours</string>
+  <string name="offer_already_assigned">Unfortunately, the job was already accepted earlier by another haulier</string>
+  <string name="offer_availability_available_message">This means we’re trying to find a job for you, but we can’t guarantee that we’ll find one, so, please, be patient.
+
+In the meanwhile, you’ll still be able to see and take offers as you normally do.</string>
+  <string name="offer_availability_available_title">You\'re available now</string>
+  <string name="offer_availability_request_message">If you are currently available and can\'t find any offers, let us know. We might be able to find an offer near you.</string>
+  <string name="offer_availability_request_title">Can\'t find any offers?</string>
+  <string name="offer_card_priority_custom">This offer is for you!</string>
+  <string name="offer_card_priority_route_match">Fits with one of your routes</string>
+  <string name="offer_card_priority_urgent">Close to where you are</string>
+  <string name="offer_card_priority_zipcode_area">Near your overnight parking</string>
+  <string name="offer_pending_documents">Send your documentation to be able to accept offers</string>
+  <string name="offer_preference_confirmation_feedback">Filter created. It may take some time to take effect.</string>
+  <string name="offer_preference_custom_timetable">Different schedule per day</string>
+  <string name="offer_preference_instructions">By setting filters for offers, you will only receive those that match your preferences.</string>
+  <string name="offer_preference_price">Minimum price</string>
+  <string name="offer_preference_since_hint">From</string>
+  <string name="offer_preference_timetable">Within schedule</string>
+  <string name="offer_preference_until_hint">Until</string>
+  <string name="offer_preference_vehicle_configuration">Offers for %s</string>
+  <string name="offer_preference_weekdays">Do you want to receive offers for</string>
+  <string name="offer_preference_weekdays_error">Please select at least one day</string>
+  <string name="offers_actions_accept">Accept</string>
+  <string name="offers_actions_reject">Decline</string>
+  <string name="offers_empty_subtitle">Stay tuned for more jobs later</string>
+  <string name="offers_empty_title">There are no available jobs at the moment</string>
+  <string name="offers_offer_base" formatted="false">%s x %s cm</string>
+  <string name="offers_offer_extras_loading">Load</string>
+  <string name="offers_offer_extras_manipulation">Manual handling</string>
+  <string name="offers_offer_extras_unloading">Unload</string>
+  <string name="offers_offer_height">%s cm in height</string>
+  <plurals name="offers_offer_load_number" formatted="false">
+    <item quantity="one">%d %s pallet</item>
+    <item quantity="other">%d %s pallets</item>
+  </plurals>
+  <string name="offers_offer_load_number_small" formatted="false">%d %s p.</string>
+  <plurals name="offers_offer_load_type_american">
+    <item quantity="one">Standard</item>
+    <item quantity="other">Standard</item>
+  </plurals>
+  <plurals name="offers_offer_load_type_equivalent">
+    <item quantity="one">Equivalent</item>
+    <item quantity="other">Equivalent</item>
+  </plurals>
+  <plurals name="offers_offer_load_type_eu_equivalent">
+    <item quantity="one">Equivalent European</item>
+    <item quantity="other">Equivalent European</item>
+  </plurals>
+  <plurals name="offers_offer_load_type_european">
+    <item quantity="one">European</item>
+    <item quantity="other">European</item>
+  </plurals>
+  <plurals name="offers_offer_load_type_special">
+    <item quantity="one">Custom</item>
+    <item quantity="other">Custom</item>
+  </plurals>
+  <plurals name="offers_offer_load_type_us_equivalent">
+    <item quantity="one">Equivalent Standard</item>
+    <item quantity="other">Equivalent Standard</item>
+  </plurals>
+  <string name="offers_offer_new">New</string>
+  <string name="offers_offer_route_title">%d stops</string>
+  <string name="offers_offer_total_weight">%s Kg</string>
+  <string name="offers_snackbar_location_action">Enable</string>
+  <string name="offers_snackbar_location_message">Location permissions disabled</string>
+  <string name="pod_chooser_title">Photo of the POD</string>
+  <string name="pod_processing_suggestion">See how to improve your photos</string>
+  <string name="prebooking_booking_title">Details of the reservation</string>
+  <string name="prebooking_booking_warning">Remember that by accepting the reservation you agree to have availability that day, at that time.</string>
+  <string name="prebooking_cancellation_message">If you cancel you will lose the information entered</string>
+  <string name="prebooking_cancellation_title">Cancellation</string>
+  <string name="prebooking_card_message">We would like to reserve some time during your day so we can work together.</string>
+  <string name="prebooking_card_time_slots">See available times</string>
+  <string name="prebooking_card_title" formatted="false">Places for %s
+Minimum guaranteed %s</string>
+  <string name="prebooking_confirmation_message">We will contact you the day before between 4:00 p.m. and 8:00 p.m. to assign the loads to you.</string>
+  <string name="prebooking_confirmation_title">Reservation confirmed</string>
+  <string name="prebooking_features_section">If you book your vehicles with us we will assign loads the day before in the chosen shift.
+
+Load characteristics:</string>
+  <string name="prebooking_min_profit">Minimum value that each load will have.</string>
+  <string name="prebooking_route_and_distance" formatted="false">%s | %d mi</string>
+  <string name="prebooking_time_slots_section">Select the shift(s) during which you would like to work with Ontruck:</string>
+  <string name="profile_billing">Billing information</string>
+  <string name="profile_drivers">Registered drivers</string>
+  <string name="profile_offer_preference">Offer preferences</string>
+  <string name="profile_terms_and_conditions">Terms and Conditions</string>
+  <string name="profile_title_exit">Log out</string>
+  <string name="profile_vehicles">Registered vehicles</string>
+  <string name="registration_completed_body">Remember that to complete the registration you must send the documents detailed in the welcome email. Once we have them, you can start accepting loads.</string>
+  <string name="registration_completed_title">You’re almost done!</string>
+  <string name="route_select_routes_title">Select routes</string>
+  <string name="routes_long_haul">Long distance</string>
+  <string name="routes_short_haul">Short distance</string>
+  <string name="routes_title">Select the routes that interest you:</string>
+  <string name="saturday">Saturday</string>
+  <string name="sign_up_url_path">/uk/hauliers/register</string>
+  <string name="standstill_report_cancel">I\'m not in standstill</string>
+  <string name="standstill_report_reason_closed">Collection/Delivery closed</string>
+  <string name="standstill_report_reason_in_queue">I\'m in a queue</string>
+  <string name="standstill_report_reason_missing_plate">Vehicle registration missing</string>
+  <string name="standstill_report_reason_missing_reference">Missing/Incorrect references</string>
+  <string name="standstill_report_reason_not_ready">Goods are not ready</string>
+  <string name="standstill_report_reason_other">Other reason</string>
+  <string name="standstill_report_send">Send standstill notification</string>
+  <string name="standstill_report_title">What\'s the reason for the delay?</string>
+  <string name="status_active">Active</string>
+  <string name="status_banned">Banned</string>
+  <string name="status_inactive">Inactive</string>
+  <string name="status_new">New</string>
+  <string name="status_not_active">Not active</string>
+  <string name="status_pending">Pending</string>
+  <string name="status_removed">Removed</string>
+  <string name="success_subtitle">Hurray! You\'ve completed another job with Ontruck</string>
+  <string name="sunday">Sunday</string>
+  <string name="support_conversation_reason_app">App issues</string>
+  <string name="support_conversation_reason_billing">Billing issue</string>
+  <string name="support_conversation_reason_documentation">Legal documentation</string>
+  <string name="support_conversation_reason_fleet">Manage my fleet information</string>
+  <string name="support_conversation_reason_offer">Question about an offer</string>
+  <string name="support_conversation_reason_other">Other issues</string>
+  <string name="support_conversation_reason_planning">Jobs planning</string>
+  <string name="support_conversation_reason_title">Support not related to a job</string>
+  <string name="support_conversations_title">Support of jobs</string>
+  <string name="support_empty_conversations_message">To start a conversation about a certain job, go to the job details and start a new conversation by pressing “Support”</string>
+  <string name="support_empty_conversations_title">You have no open conversations</string>
+  <string name="support_title">Support</string>
+  <string name="tabs_seccion_jobs">Your Jobs</string>
+  <string name="tabs_seccion_offers">Offers</string>
+  <string name="tabs_section_chat">Chat</string>
+  <string name="tabs_section_profile">Profile</string>
+  <string name="tabs_section_tickets">Support</string>
+  <string name="terms_and_conditions">We have updated our %s.
+We need your consent to save your information and location.</string>
+  <string name="terms_and_conditions_alert_accept">Accept</string>
+  <string name="terms_and_conditions_alert_feedback">Login using your phone number and password, then accept the terms and conditions.</string>
+  <string name="terms_and_conditions_alert_reject">Don\'t accept</string>
+  <string name="thursday">Thursday</string>
+  <string name="ticket_closed_status">Closed</string>
+  <string name="ticket_hold_status">On hold</string>
+  <string name="ticket_in_progress_status">In progress</string>
+  <string name="ticket_list_me">Me</string>
+  <string name="ticket_new_status">New</string>
+  <string name="ticket_open_status">Open</string>
+  <string name="ticket_pending_status">Pending</string>
+  <string name="ticket_solved_status">Solved</string>
+  <string name="tickets_empty_messages_hint">Describe the incident you are reporting</string>
+  <string name="tickets_messages_hint">Add any details to help us solve your incident</string>
+  <string name="tickets_writing_input">I am writing</string>
+  <string name="to">to</string>
+  <string name="today">Today</string>
+  <string name="tomorrow">Tomorrow</string>
+  <string name="tuesday">Tuesday</string>
+  <string name="update_alert_forced_message">You need to update</string>
+  <string name="update_alert_recommended_message">New version available</string>
+  <string name="update_alert_title">Alert</string>
+  <string name="update_alert_update">Update</string>
+  <string name="user_availability_confirm_message">If you are, we\'ll do our best to find a job for you.</string>
+  <string name="user_availability_confirm_title">Are you available?</string>
+  <string name="user_recover_password_instruction_message">You will receive a SMS with which you may access to your password</string>
+  <string name="user_recover_password_instruction_title">Enter your phone number</string>
+  <string name="user_recover_password_link">I forgot my password</string>
+  <string name="user_show_password_instruction_message">The SMS may take a few seconds to arrive.
+We recommend that you save your password for future access.</string>
+  <string name="user_show_password_instruction_title">SMS successfully sent</string>
+  <string name="user_show_password_no_sms">Haven\'t received the SMS yet?</string>
+  <string name="vehicle_add_title">What type of vehicle do you want to add?</string>
+  <string name="vehicle_add_vehicle_title">Add new vehicle</string>
+  <string name="vehicle_chooser_title">Select a vehicle</string>
+  <string name="vehicle_detail_box_height">Internal box height (meters)</string>
+  <string name="vehicle_detail_box_length">Internal box length (meters)</string>
+  <string name="vehicle_detail_box_measures">Box measures</string>
+  <string name="vehicle_detail_box_width">Internal box width (meters)</string>
+  <string name="vehicle_detail_capacity">Capacity</string>
+  <string name="vehicle_detail_capacity_section">Vehicle capacity</string>
+  <string name="vehicle_detail_general_info">General</string>
+  <string name="vehicle_detail_general_section">General information</string>
+  <string name="vehicle_detail_length">Total vehicle length (meters)</string>
+  <string name="vehicle_detail_max_load">Max Vehicle Payload (Kg)</string>
+  <string name="vehicle_detail_max_pallet">Maximum pallets %s</string>
+  <string name="vehicle_detail_max_pallets">Maximum standard pallets</string>
+  <string name="vehicle_detail_measures_section">Internal box dimensions</string>
+  <string name="vehicle_detail_mma">Gross vehicle weight (Kg)</string>
+  <string name="vehicle_detail_plate">Vehicle registration number</string>
+  <string name="vehicle_detail_transport_card">DVSA HGV Operators License</string>
+  <string name="vehicle_dialog_add_trailer_message">To work with Ontruck it\'s necessary that you have at least one head and one trailer.</string>
+  <string name="vehicle_dialog_add_trailer_title">Add a trailer</string>
+  <string name="vehicle_dialog_add_vehicle">Do you want to add another vehicle?</string>
+  <string name="vehicle_edit_confirmation_message">You\'re going to change the vehicle\'s postcode. Are you sure?</string>
+  <string name="vehicle_extras_liftgate">Tail lift</string>
+  <string name="vehicle_extras_side_load">Curtainsider</string>
+  <string name="vehicle_extras_title">Vehicle extras:</string>
+  <string name="vehicle_extras_top_load">Retractable roof</string>
+  <string name="vehicle_form_zipcode_help_subtitle">Indicate the postcode to receive jobs close to that location</string>
+  <string name="vehicle_form_zipcode_help_title">Where do you park the vehicle?</string>
+  <string name="vehicle_form_zipcode_placeholder">Postcode</string>
+  <string name="vehicle_list_add_zipcode">Add postcode</string>
+  <string name="vehicle_list_empty_message">Contact our team via chat to add vehicles and start working with us.</string>
+  <string name="vehicle_list_empty_title">You have no vehicles registered</string>
+  <string name="vehicle_selector_title">Select %s</string>
+  <plurals name="vehicle_type_box_van">
+    <item quantity="one">Luton Van</item>
+    <item quantity="other">Luton Vans</item>
+  </plurals>
+  <plurals name="vehicle_type_full_trailer">
+    <item quantity="one">Trailer</item>
+    <item quantity="other">Trailers</item>
+  </plurals>
+  <plurals name="vehicle_type_rigid_truck">
+    <item quantity="one">Rigid</item>
+    <item quantity="other">Rigids</item>
+  </plurals>
+  <plurals name="vehicle_type_semi_trailer">
+    <item quantity="one">Artic (44T)</item>
+    <item quantity="other">Artics (44T)</item>
+  </plurals>
+  <plurals name="vehicle_type_tractor_unit">
+    <item quantity="one">Head</item>
+    <item quantity="other">Tractor units</item>
+  </plurals>
+  <plurals name="vehicle_type_trailer">
+    <item quantity="one">Trailer</item>
+    <item quantity="other">Trailers</item>
+  </plurals>
+  <plurals name="vehicle_type_van">
+    <item quantity="one">Van</item>
+    <item quantity="other">Vans</item>
+  </plurals>
+  <string name="warning_add_trailer">You can\'t add a trailer if you haven\'t added a tractor truck.</string>
+  <string name="warning_allow_location_message">We need to have access to your location to help you with any incident that may arise during the journey.</string>
+  <string name="warning_allow_location_title">Activate your localization GPS</string>
+  <string name="warning_journey_assigned_fail">The time to reject has expired</string>
+  <string name="warning_journey_unassign">You can reject this job until %s</string>
+  <string name="warning_journey_unassigned">Job successfully unassigned</string>
+  <string name="wednesday">Wednesday</string>
+  <string name="welcome_body">You’re almost ready to accept your first Ontruck job, all we need is information about your vehicles to send you the best loads.
+
+Remember that you also need to send your documents to our team.</string>
+  <string name="welcome_title">Hello</string>
+  <string name="yesterday">Yesterday</string>
+</resources>
