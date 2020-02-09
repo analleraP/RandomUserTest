@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="action_accept">Accepteren</string>
+  <string name="action_activate">Activeren</string>
+  <string name="action_add">Toevoegen</string>
+  <string name="action_add_vehicle">Nieuw voertuig toevoegen</string>
+  <string name="action_assign">Toewijzen</string>
+  <string name="action_available">Ik ben beschikbaar</string>
+  <string name="action_available_now">Ja, ik ben beschikbaar</string>
+  <string name="action_back">Terug</string>
+  <string name="action_book">Reserveer plek</string>
+  <string name="action_cancel">Annuleren</string>
+  <string name="action_close">Sluiten</string>
+  <string name="action_confirm_booking">Boeking bevestigen</string>
+  <string name="action_contact_us">Neem contact met ons op</string>
+  <string name="action_continue">Doorgaan</string>
+  <string name="action_end">Voltooien</string>
+  <string name="action_exit">Sluiten</string>
+  <string name="action_know_more">Meer informatie</string>
+  <string name="action_login">Inloggen</string>
+  <string name="action_next">Volgende</string>
+  <string name="action_no">Nee</string>
+  <string name="action_not_available">Nee, ik ben bezet</string>
+  <string name="action_not_now">Niet nu</string>
+  <string name="action_ok">OK</string>
+  <string name="action_open_camera">Maak een foto</string>
+  <string name="action_open_gallery">Selecteren in galerij</string>
+  <string name="action_receive_sms">Sms ontvangen</string>
+  <string name="action_save">Opslaan</string>
+  <string name="action_send">Verzenden</string>
+  <string name="action_skip">Overslaan</string>
+  <string name="action_start">Starten</string>
+  <string name="action_understood">Oké, begrepen</string>
+  <string name="action_upload_picture">Foto uploaden</string>
+  <string name="action_yes">Ja</string>
+  <string name="app_error_client_message">Er is een fout opgetreden in de app.
+Probeer het opnieuw.</string>
+  <string name="app_error_client_small">Er ging iets mis met de app. Probeer het opnieuw.</string>
+  <string name="app_error_client_title">Er ging iets mis</string>
+  <string name="app_error_connection_message">Het lijkt erop dat je geen
+internetverbinding hebt</string>
+  <string name="app_error_connection_small">Het lijkt erop dat je geen internetverbinding hebt</string>
+  <string name="app_error_connection_title">Uh-oh...</string>
+  <string name="app_error_recover_password">Sorry, er is iets misgegaan tijdens het ophalen van het wachtwoord. Neem contact met ons op voor een oplossing.</string>
+  <string name="app_error_recover_password_invalid">Sorry, de link is verlopen</string>
+  <string name="app_error_server_message">We kunnen de server niet bereiken.
+Probeer het later opnieuw.</string>
+  <string name="app_error_server_small">We kunnen de server niet bereiken. Probeer het later opnieuw.</string>
+  <string name="app_error_server_title">Er ging iets mis</string>
+  <string name="app_error_unknown_message">Geen zorgen, we zijn er al mee bezig</string>
+  <string name="app_error_unknown_small">Oeps! Er is iets misgegaan...</string>
+  <string name="app_error_unknown_title">Het lijkt erop dat er iets is misgegaan... :-/</string>
+  <string name="app_name">Ontruck</string>
+  <string name="app_url_recover_password">https://ontruck-com.typeform.com/to/msty21</string>
+  <string name="app_version">Versie %s</string>
+  <string name="billing_detail_address">Fiscaal adres</string>
+  <string name="billing_detail_bill_type_direct">Directe schatting</string>
+  <string name="billing_detail_bill_type_irpf">IRPF 1%</string>
+  <string name="billing_detail_choose_bill_type">Hoe wil je dat wij je factureren?</string>
+  <string name="billing_detail_city">Stad</string>
+  <string name="billing_detail_iban">Bankrekening (IBAN)</string>
+  <string name="billing_detail_name">Naam en achternaam</string>
+  <string name="billing_detail_name_company">Bedrijfsnaam</string>
+  <string name="billing_detail_postal_code">Postcode</string>
+  <string name="billing_detail_request_update">Wijziging aanvragen</string>
+  <string name="billing_detail_request_update_response">We hebben je een e-mail gestuurd met instructies voor het bijwerken van je factuurgegevens.</string>
+  <string name="billing_detail_title">Factuurgegevens</string>
+  <string name="billing_edit_cancel_message">Als je dit scherm verlaat verlies je de informatie die je heeft ingevuld</string>
+  <string name="billing_edit_confirmation_message">Weet je zeker dat je deze nieuwe gegevens wilt opslaan?</string>
+  <string name="billing_type_company">Ik ben een bedrijf</string>
+  <string name="billing_type_none">Nee</string>
+  <string name="billing_type_self_employee">Ik ben zelfstandige</string>
+  <string name="billing_type_title_type">Voer je informatie in om uitbetaald te kunnen worden</string>
+  <string name="billing_type_title_vat">Bent u geregistreerd voor VAT?</string>
+  <string name="billing_type_vat">Ja</string>
+  <string name="booking_max_distance_disclaimer">Maximum afstand van elke lading vanaf het punt van ophaling tot het punt van levering.</string>
+  <string name="booking_multiple_card_message">Minimaal één lading gegarandeerd. Werkt bij ons van maandag tot en met vrijdag.</string>
+  <string name="booking_multiple_card_title" formatted="false">Plaatsen voor %s
+van %s tot %s</string>
+  <string name="booking_offer_action">Shiften en plaatsen bekijken</string>
+  <string name="booking_offer_warranty">Garantie van Ontruck</string>
+  <string name="booking_offer_warranty_detail">Als we je tijdens de shift geen lading toewijzen, vergoeden we je met {profit}.</string>
+  <string name="booking_slots_assigned" formatted="false">%d/%d beschikbare plaatsen</string>
+  <plurals name="booking_slots_available">
+    <item quantity="one">%d plaats beschikbaar</item>
+    <item quantity="other">%d plaatsen beschikbaar</item>
+  </plurals>
+  <plurals name="booking_slots_book">
+    <item quantity="one">%d plaats geboekt</item>
+    <item quantity="other">%d plaatsen geboekt</item>
+  </plurals>
+  <string name="booking_time_slots_chooser_section">Reserveer plaatsen in de shift die je interesseert:</string>
+  <string name="booking_time_slots_chooser_title">Shiften en plaatsen</string>
+  <string name="booking_unavailable_slots_message">Het spijt ons, we hebben de beschikbare plaatsen in een van de geselecteerde shiften uitgeput</string>
+  <string name="booking_unavailable_slots_title">Plaatsen niet beschikbaar</string>
+  <string name="camara_review_nok">Nee</string>
+  <string name="camara_review_ok">Ja</string>
+  <string name="camera_howto_first_subtitle">Leveringsnota moet volledig worden vastgelegd en gecentreerd op de foto</string>
+  <string name="camera_howto_first_text">Plaats de leveringsnota op een vlakke ondergrond direct voor de camera
+1. Moet in het midden van het kader zijn
+2. Moet volledig binnen het kader worden vastgelegd, zonder dat de randen worden afgesneden
+3. Er moet ten minste enige ruimte zijn tussen de rand van het kader en de rand van de leveringsnota
+4. Er mogen geen vingers, schaduwen of andere obstakels het document bedekken</string>
+  <string name="camera_howto_right">Wel doen</string>
+  <string name="camera_howto_second_subtitle">Leveringsnota moet makkelijk te lezen zijn</string>
+  <string name="camera_howto_second_text">Maak de foto in goed verlichte omgeving of gebruik de flitser
+1. Leveringsnota moet er niet te donker of licht uitzien
+2. Er mogen geen schaduwen op staan
+3. Probeer ervoor te zorgen dat het document niet te gekreukt is of vouwlijnen heeft
+4. Letters en cijfers moeten gemakkelijk te lezen zijn</string>
+  <string name="camera_howto_title">Hoe je je foto\'s kunt verbeteren</string>
+  <string name="camera_howto_wrong">Niet doen</string>
+  <string name="camera_process_crop_accept">Oké, gedaan</string>
+  <string name="camera_process_crop_cancel">Herhalen</string>
+  <string name="camera_process_crop_found_message">Staan de cirkels op de hoeken van de leveringsnota?
+Zo niet, versleep de cirkels dan zo dat ze op de hoeken staan.</string>
+  <string name="camera_process_crop_not_found_message">Versleep de cirkels zo dat ze op de hoeken van de leveringsnota staan</string>
+  <string name="camera_process_ko_contrast_message">Het lijkt erop dat deze foto niet genoeg contrast heeft</string>
+  <string name="camera_process_ko_focus_message">Het lijkt erop dat deze foto niet scherp genoeg is</string>
+  <string name="camera_process_ok_accept">Ja, hij is oké</string>
+  <string name="camera_process_ok_cancel">Nee</string>
+  <string name="camera_process_ok_message">Ziet de leveringsnota er gecentreerd, scherp en goed leesbaar uit?</string>
+  <string name="camera_process_warning_accept">Nee, hij is oké</string>
+  <string name="camera_process_warning_cancel">Ja</string>
+  <string name="camera_process_warning_contrast_message">Ziet de leveringsnota er te donker uit?</string>
+  <string name="camera_process_warning_focus_contrast_message">Ziet de leveringsnota er te donker en onscherp uit?</string>
+  <string name="camera_process_warning_focus_message">Ziet de leveringsnota er niet scherp genoeg uit?</string>
+  <string name="cargo_manifest_uploader_camera_toast">Centreer de leveringsnota incl. een marge</string>
+  <string name="cargo_manifest_uploader_dont_have">Ik heb deze leveringsnota niet</string>
+  <string name="cargo_manifest_uploader_error_sending">We konden de leveringsnota niet uploaden. Probeer het over enkele ogenblikken opnieuw.</string>
+  <string name="cargo_manifest_uploader_error_uploading">We konden de foto niet uploaden. Probeer het over enkele ogenblikken opnieuw.</string>
+  <string name="cargo_manifest_uploader_finish_journey">Gereed, opdracht voltooid</string>
+  <string name="cargo_manifest_uploader_next_cargo_manifest">Ga naar de volgende leveringsnota</string>
+  <string name="cargo_manifest_uploader_not_available_alert_action">Accepteren</string>
+  <string name="cargo_manifest_uploader_not_available_alert_message">Als je geen leveringsnota van de vervoerder hebt ontvangen, heb je twee opties:
+1. Je kunt de leveringsnota van je bedrijf gebruiken
+2. Je kunt een leeg blad invullen met de informatie die we je in de app hebben gegeven. Het is belangrijk dat dit op de leveringslocatie(s) wordt ondertekend.</string>
+  <string name="cargo_manifest_uploader_not_available_alert_title">Je hebt de leveringsnota nodig om door te gaan</string>
+  <string name="cargo_manifest_uploader_permissions_needed">Je moet de toestemming om de foto te nemen accepteren</string>
+  <string name="cargo_manifest_uploader_send_cargo_manifest">Klaar, leveringsnota uploaden</string>
+  <string name="cargo_manifest_uploader_title">Leveringsnota %s</string>
+  <string name="chat_attachment_menu_camera">Camera</string>
+  <string name="chat_attachment_menu_gallery">Fotogalerij</string>
+  <string name="chat_attachment_menu_location">Locatie</string>
+  <string name="chat_call">Bellen</string>
+  <string name="chat_message_placeholder">Bericht</string>
+  <string name="chat_send">Verzenden</string>
+  <string name="commercial_emails_alert_accept">Accepteren</string>
+  <string name="commercial_emails_alert_message">We willen je graag e-mails sturen met nieuws en services van Ontruck</string>
+  <string name="commercial_emails_alert_reject">Niet accepteren</string>
+  <string name="driver_add_accept">Bestuurder toevoegen</string>
+  <string name="driver_add_body">Als je bestuurders toevoegt, kun je ze ladingen toewijzen. Als je alleen werkt, hoeft je geen bestuurder toe te voegen.</string>
+  <string name="driver_add_driver_title">Nieuwe bestuurder toevoegen</string>
+  <string name="driver_add_skip">Overslaan</string>
+  <string name="driver_add_title">Werk je met meer bestuurders?
+Je kunt ze hier toevoegen</string>
+  <string name="driver_detail_choose_dispatcher">Wil je dat deze bestuurder prijzen kan zien en vrachten kan beheren?</string>
+  <string name="driver_detail_is_dispatchee">Nee</string>
+  <string name="driver_detail_is_dispatcher">Ja</string>
+  <string name="driver_detail_last_name">Achternaam</string>
+  <string name="driver_detail_name">Naam</string>
+  <string name="driver_detail_phone">Telefoonnummer</string>
+  <string name="driver_detail_title">Gegevens bestuurder</string>
+  <string name="driver_dialog_add_driver">Wil je meer bestuurders toevoegen?</string>
+  <string name="driver_list_you">(Jij)</string>
+  <string name="driver_type_admin">Transport Manager</string>
+  <string name="driver_type_default">Bestuurder</string>
+  <string name="earnings_month_earned">Deze maand</string>
+  <string name="error_document_of_control_not_found">Fout. Document niet beschikbaar.</string>
+  <string name="error_login_message">Gebruiker of wachtwoord onjuist.</string>
+  <string name="error_login_title">Verkeerde inloggegevens</string>
+  <string name="error_obtaining_location">Kan locatie niet ophalen</string>
+  <string name="error_phone_call">Fout bij het starten van de oproep. Bel ons op %s</string>
+  <string name="friday">Vrijdag</string>
+  <string name="gps_bar_subtitle">Tik hier om je opdrachten te zien</string>
+  <string name="gps_bar_title">Ontruck-opdracht in uitvoering</string>
+  <string name="jobs_card_no_driver_assigned">Geen bestuurder toegewezen</string>
+  <string name="jobs_card_no_vehicle_assigned">Geen voertuig toegewezen</string>
+  <string name="jobs_card_self_assinged">Van jouw</string>
+  <string name="jobs_card_title_finished">Voltooid</string>
+  <string name="jobs_card_title_in_progress">Bezig</string>
+  <string name="jobs_card_title_not_started">Niet gestart</string>
+  <string name="jobs_no_finished">Je hebt nog geen opdracht voltooid</string>
+  <string name="jobs_no_jobs_subtitle">Maar dat kunnen we oplossen,
+bekijk de sectie met aanbod</string>
+  <string name="jobs_no_jobs_title">Je hebt geen lopende opdrachten</string>
+  <string name="jobs_no_pod_reminder_accept">Ik begrijp het</string>
+  <string name="jobs_no_pod_reminder_message">We willen je vragen een foto te uploaden of een scan van de lopende leveringsnota, zodat we je kunnen betalen voor de opdracht. Bedankt voor je medewerking.</string>
+  <plurals name="jobs_no_pod_reminder_title">
+    <item quantity="one">Je hebt %d lopende leveringsnota</item>
+    <item quantity="other">Je hebt %d lopende leveringsnota\'s</item>
+  </plurals>
+  <string name="jobs_sections_done">Voltooid</string>
+  <string name="jobs_sections_pending">Bezig</string>
+  <string name="jobs_status_cancelled">Geannuleerd</string>
+  <string name="jobs_status_unassigned">Niet-toegewezen</string>
+  <string name="journey_detail_cancelled">De opdracht is geannuleerd</string>
+  <string name="journey_detail_change_driver">Bestuurder wijzigen</string>
+  <string name="journey_detail_change_vehicle">Voertuig wijzigen</string>
+  <string name="journey_detail_chat">Chat</string>
+  <string name="journey_detail_chat_reorder">Hallo, ik wil de volgorde van de laad-/losplaatsen van de route %s wijzigen</string>
+  <string name="journey_detail_choose_driver">Bestuurder toewijzen</string>
+  <string name="journey_detail_choose_driver_and_vehicle">Bestuurder en voertuig toewijzen</string>
+  <string name="journey_detail_choose_driver_title">Wijs een bestuurder toe</string>
+  <string name="journey_detail_choose_trailer_title">Kies een oplegger</string>
+  <string name="journey_detail_choose_vehicle">Voertuig kiezen</string>
+  <string name="journey_detail_choose_vehicle_later">Ik kies later</string>
+  <string name="journey_detail_choose_vehicle_title">Kies een voertuig</string>
+  <string name="journey_detail_load_number">#%s</string>
+  <string name="journey_detail_max_height">Maximale pallethoogte</string>
+  <string name="journey_detail_no_driver_assigned">Geen bestuurder toegewezen</string>
+  <string name="journey_detail_no_vehicle_assigned">Geen voertuig toegewezen</string>
+  <string name="journey_detail_reorder">Aanvraag om volgorde van stops te wijzigen</string>
+  <string name="journey_detail_show_document_of_control">Controledocument weergeven</string>
+  <string name="journey_detail_signature_alert_call">Ontruck bellen</string>
+  <string name="journey_detail_signature_alert_cancel">Annuleren</string>
+  <string name="journey_detail_signature_alert_message">Verifieer dat lading heeft plaatsgevonden</string>
+  <string name="journey_detail_signature_alert_ok">Lading is correct</string>
+  <plurals name="journey_detail_signature_alert_total_items" formatted="false">
+    <item quantity="one">%d pallet - totaal %s</item>
+    <item quantity="other">%d pallets - totaal %s</item>
+  </plurals>
+  <string name="journey_detail_standstill_banner_action">Er is sprake van een stilstand</string>
+  <string name="journey_detail_standstill_banner_message">Je staat al lang bij %s.</string>
+  <string name="journey_detail_status_button_arrived">Gearriveerd bij %s</string>
+  <string name="journey_detail_status_button_arrived_time" formatted="false">Aangekomen om %s bij %s</string>
+  <string name="journey_detail_status_button_default">Doorgaan</string>
+  <string name="journey_detail_status_button_departed">Onderweg naar %s</string>
+  <string name="journey_detail_status_button_dropped_off">Gelost</string>
+  <string name="journey_detail_status_button_finished">Gereed, opdracht afgerond</string>
+  <string name="journey_detail_status_button_launch_manifest">Foto van leveringsnota uploaden</string>
+  <string name="journey_detail_status_button_picked_up">Geladen</string>
+  <string name="journey_detail_status_button_started">Opdracht starten</string>
+  <string name="journey_detail_status_feedback_ok">Bijgewerkt</string>
+  <string name="journey_detail_stop_ask_for">Vraag naar %s</string>
+  <string name="journey_detail_stop_comment">Instructies</string>
+  <string name="journey_detail_stop_dropoff">Levering</string>
+  <plurals name="journey_detail_stop_load_cooled">
+    <item quantity="one">gekoeld</item>
+    <item quantity="other">gekoeld</item>
+  </plurals>
+  <string name="journey_detail_stop_load_custom_size" formatted="false">(%s cm x %s cm)</string>
+  <plurals name="journey_detail_stop_load_frozen">
+    <item quantity="one">bevroren</item>
+    <item quantity="other">bevroren</item>
+  </plurals>
+  <plurals name="journey_detail_stop_load_title_dropoff">
+    <item quantity="one">%d pallet afleveren</item>
+    <item quantity="other">%d pallets afleveren</item>
+  </plurals>
+  <plurals name="journey_detail_stop_load_title_pickup">
+    <item quantity="one">%d pallet ophalen</item>
+    <item quantity="other">%d pallets ophalen</item>
+  </plurals>
+  <string name="journey_detail_stop_load_total_weight">Totaal gewicht: %s</string>
+  <string name="journey_detail_stop_mix">Stops</string>
+  <string name="journey_detail_stop_pickup">Pick-up</string>
+  <string name="journey_detail_stop_reference">Referentienummer</string>
+  <string name="journey_detail_stop_status_bar_at_place">Gearriveerd</string>
+  <string name="journey_detail_stop_status_bar_cancelled">Geannuleerd</string>
+  <string name="journey_detail_stop_status_bar_done">Klaar</string>
+  <string name="journey_detail_stop_status_bar_employee_at_place">%s is gearriveerd</string>
+  <string name="journey_detail_stop_status_bar_employee_on_the_way">%s is onderweg</string>
+  <string name="journey_detail_stop_status_bar_loading">Bij pick-up locatie</string>
+  <string name="journey_detail_stop_status_bar_missing_manifest">Leveringsnota ontbreekt</string>
+  <string name="journey_detail_stop_status_bar_on_the_way">Onderweg</string>
+  <string name="journey_detail_stop_status_bar_running_late">Ik ben laat</string>
+  <string name="journey_detail_stop_status_bar_standstill">Wachten door stilstand</string>
+  <string name="journey_detail_stop_status_bar_unloading">Bij leveringslocatie</string>
+  <string name="journey_detail_too_eary_warning_message">Je hoeft pas over 4 uur bij het pick-uppunt te zijn. Weet je zeker dat je nu wilt starten?</string>
+  <string name="journey_detail_too_eary_warning_no">Nee</string>
+  <string name="journey_detail_too_eary_warning_yes">Ja, starten</string>
+  <string name="journey_detail_total_weight">Totale gewicht</string>
+  <string name="journey_detail_unload_alert_message">Verifieer dat lading is gelost</string>
+  <string name="journey_detail_unload_alert_ok">Lossen is correct</string>
+  <string name="journey_detail_weight">Gewicht</string>
+  <string name="journey_dialog_next_stop_later">Nee, ik ga later</string>
+  <string name="journey_dialog_next_stop_title">Ga je naar de volgende laad-/losplaats?</string>
+  <string name="journey_dialog_start_journey_accept">Ja, ik ga starten</string>
+  <string name="journey_dialog_start_journey_cancel">Nee, ik start later</string>
+  <string name="journey_dialog_start_journey_message">Houd je status up-to-date. Als je dit niet doet, loop je misschien top opdrachten mis.</string>
+  <string name="journey_dialog_start_journey_title">Ga je deze opdracht starten?</string>
+  <string name="journey_dialog_unassign_message">Je hebt vanaf nu 5 minuten om de opdracht te bekijken en te weigeren als je hem niet kunt uitvoeren.</string>
+  <string name="journey_dialog_unassign_message_extended">Als je om de een of andere reden de taak niet kunt uitvoeren, wijs deze dan zo snel mogelijk af zodat we een andere bestuurder voor deze klant kunnen zoeken.</string>
+  <string name="journey_dialog_unassign_title">De lading is van jou!</string>
+  <string name="journey_dialog_wrong_advance_message">Update elke status op het juiste moment. Als je dit niet doet, loopt je misschien top opdrachten mis.</string>
+  <string name="journey_dialog_wrong_advance_title">Doe dat alstublieft niet ...</string>
+  <plurals name="journey_list_number_collapsed_stops">
+    <item quantity="one">en nog %d laad-/losplaats</item>
+    <item quantity="other">en nog %d laad-/losplaatsen</item>
+  </plurals>
+  <string name="journey_reference_number">J%s</string>
+  <string name="journey_review_title">Beoordeel de zending</string>
+  <string name="journey_review_url">https://ontruck-com.typeform.com/to/CVnEtB?job_id=%d</string>
+  <string name="journey_unassign_action">Ik kan deze opdracht niet uitvoeren</string>
+  <string name="link_terms_and_conditions">privacyvoorwaarden</string>
+  <string name="login_password">Code</string>
+  <string name="login_phone">Telefoonnummer</string>
+  <string name="login_sign_up_link">Ik heb geen account</string>
+  <string name="logout_loader_message">Een ogenblik</string>
+  <string name="logout_loader_title">Uitloggen</string>
+  <string name="mail_subject_sending_documents">Documenten verzenden</string>
+  <string name="monday">Maandag</string>
+  <string name="notification_channel_alerts">Mededelingen</string>
+  <string name="notification_channel_chat">Chat</string>
+  <string name="notification_channel_location">Locatie</string>
+  <string name="notification_channel_offers">Aanbod</string>
+  <string name="notification_pending_pod_message">Vergeet niet een foto van de leveringsnota te maken</string>
+  <string name="notification_update_status_action_chat">Chat met Ontruck</string>
+  <string name="notification_update_status_action_chat_short">Chat</string>
+  <string name="notification_update_status_action_no">Nog niet</string>
+  <string name="notification_update_status_action_no_short">Nee</string>
+  <string name="notification_update_status_action_yes">Ja</string>
+  <string name="offer_accept_checking">Controleren of de opdracht van jou is</string>
+  <string name="offer_already_assigned">Dit aanbod is helaas al aangenomen door een andere vervoerder</string>
+  <string name="offer_availability_available_message">Dit betekent dat we een opdracht voor je proberen te vinden. We kunnen niet garanderen dat we er een vinden, dus we vragen je om geduld. 
+
+Ondertussen kun je nog steeds het aanbod zien en aannemen zoals je normaal doet.</string>
+  <string name="offer_availability_available_title">Je bent nu beschikbaar</string>
+  <string name="offer_availability_request_message">Als je nu beschikbaar bent en geen aanbod kunt vinden, laat het ons dan weten. We kunnen misschien aanbod bij je in de buurt vinden.</string>
+  <string name="offer_availability_request_title">Kunt je geen aanbod vinden?</string>
+  <string name="offer_card_priority_custom">Dit aanbod is voor jou!</string>
+  <string name="offer_card_priority_route_match">Past bij een van je routes</string>
+  <string name="offer_card_priority_urgent">Dichtbij waar je nu bent</string>
+  <string name="offer_card_priority_zipcode_area">Dicht bij overnachtings- parkeerplaats</string>
+  <string name="offer_pending_documents">Verzend je documentatie om aanbod te kunnen accepteren</string>
+  <string name="offer_preference_confirmation_feedback">Filter aangemaakt. Het kan enige tijd duren voor dit actief is.</string>
+  <string name="offer_preference_custom_timetable">Mijn uren verschillen per dag</string>
+  <string name="offer_preference_instructions">Door het instellen van filters voor offertes ontvang je alleen offertes die aan jouw voorkeuren voldoen.</string>
+  <string name="offer_preference_price">Minimumprijs</string>
+  <string name="offer_preference_since_hint">Vanaf</string>
+  <string name="offer_preference_timetable">Binnen het schema</string>
+  <string name="offer_preference_until_hint">Tot</string>
+  <string name="offer_preference_vehicle_configuration">Aanbod voor %s</string>
+  <string name="offer_preference_weekdays">Wilt u aanbiedingen ontvangen voor</string>
+  <string name="offer_preference_weekdays_error">Selecteer alstublieft minimaal één dag</string>
+  <string name="offers_actions_accept">Accepteren</string>
+  <string name="offers_actions_reject">Afwijzen</string>
+  <string name="offers_empty_subtitle">Kom later terug voor meer opdrachten</string>
+  <string name="offers_empty_title">Er zijn momenteel geen beschikbare opdrachten</string>
+  <string name="offers_offer_base" formatted="false">%s x %s cm</string>
+  <string name="offers_offer_extras_loading">Laden</string>
+  <string name="offers_offer_extras_manipulation">Afhandeling</string>
+  <string name="offers_offer_extras_unloading">Lossen</string>
+  <string name="offers_offer_height">%s cm in hoogte</string>
+  <plurals name="offers_offer_load_number" formatted="false">
+    <item quantity="one">%d %s pallet</item>
+    <item quantity="other">%d %s pallets</item>
+  </plurals>
+  <string name="offers_offer_load_number_small" formatted="false">%d %s p.</string>
+  <plurals name="offers_offer_load_type_american">
+    <item quantity="one">Amerikaanse</item>
+    <item quantity="other">Amerikaanse</item>
+  </plurals>
+  <plurals name="offers_offer_load_type_equivalent">
+    <item quantity="one">equivalent</item>
+    <item quantity="other">equivalent</item>
+  </plurals>
+  <plurals name="offers_offer_load_type_eu_equivalent">
+    <item quantity="one">equivalent Europees</item>
+    <item quantity="other">equivalent Europees</item>
+  </plurals>
+  <plurals name="offers_offer_load_type_european">
+    <item quantity="one">Euro palet</item>
+    <item quantity="other">Euro palets</item>
+  </plurals>
+  <plurals name="offers_offer_load_type_special">
+    <item quantity="one">aangepast</item>
+    <item quantity="other">aangepast</item>
+  </plurals>
+  <plurals name="offers_offer_load_type_us_equivalent">
+    <item quantity="one">equivalent Amerikaans</item>
+    <item quantity="other">equivalent Amerikaans</item>
+  </plurals>
+  <string name="offers_offer_new">Nieuw</string>
+  <string name="offers_offer_route_title">%d stops</string>
+  <string name="offers_offer_total_weight">%s kg</string>
+  <string name="offers_snackbar_location_action">Inschakelen</string>
+  <string name="offers_snackbar_location_message">Locatiemachtigingen uitgeschakeld</string>
+  <string name="pod_chooser_title">Foto van de leveringsnota</string>
+  <string name="pod_processing_suggestion">Zie hoe je je foto\'s kunt verbeteren</string>
+  <string name="prebooking_booking_title">Boekingsgegevens</string>
+  <string name="prebooking_booking_warning">Als je de boeking accepteert, ga je ermee akkoord op die dag en tijd beschikbaar te zijn.</string>
+  <string name="prebooking_cancellation_message">Als je annuleert, verlies je de ingevoerde gegevens</string>
+  <string name="prebooking_cancellation_title">Annulering</string>
+  <string name="prebooking_card_message">We willen graag wat tijd reserveren zodat we samen kunnen werken.</string>
+  <string name="prebooking_card_time_slots">Beschikbare tijdstippen bekijken</string>
+  <string name="prebooking_card_title" formatted="false">Zitplaatsen voor %s. 
+Gegarandeerd minimum %s</string>
+  <string name="prebooking_confirmation_message">Wij nemen de dag voordien tussen 16:00 en 20:00 uur contact met je op om de ladingen toe te wijzen</string>
+  <string name="prebooking_confirmation_title">Boeking bevestigd</string>
+  <string name="prebooking_features_section">Wanneer je je voertuigen bij ons registreert wijzen we je ladingen de dag voor je gekozen shift toe.
+
+Eigenschappen van de ladingen:</string>
+  <string name="prebooking_min_profit">Minimum hoeveelheid per lading.</string>
+  <string name="prebooking_route_and_distance" formatted="false">%s | %d km</string>
+  <string name="prebooking_time_slots_section">Kies welke shift(s) je met Ontruck wilt werken:</string>
+  <string name="profile_billing">Factuurgegevens</string>
+  <string name="profile_drivers">Geregistreerde bestuurders</string>
+  <string name="profile_offer_preference">Voorkeuren voor offertes</string>
+  <string name="profile_terms_and_conditions">Algemene voorwaarden</string>
+  <string name="profile_title_exit">Uitloggen</string>
+  <string name="profile_vehicles">Geregistreerde voertuigen</string>
+  <string name="registration_completed_body">Vergeet niet dat u voor het voltooien van de registratie de documenten die in de welkomstmail staan, moet opsturen. Als we ze eenmaal hebben, kun je beginnen met het accepteren van ladingen.</string>
+  <string name="registration_completed_title">Welkom bij Ontruck!</string>
+  <string name="route_select_routes_title">Routes selecteren</string>
+  <string name="routes_long_haul">Lange afstand</string>
+  <string name="routes_short_haul">Korte afstand</string>
+  <string name="routes_title">Selecteer de routes die je interesseren:</string>
+  <string name="saturday">Zaterdag</string>
+  <string name="sign_up_url_path">/nl/vervoerders/registreer</string>
+  <string name="standstill_report_cancel">Ik sta niet stil</string>
+  <string name="standstill_report_reason_closed">Magazijn is gesloten</string>
+  <string name="standstill_report_reason_in_queue">Er staat een file</string>
+  <string name="standstill_report_reason_missing_plate">Ze hebben mijn nummerplaat niet</string>
+  <string name="standstill_report_reason_missing_reference">Referentie ontbreekt of is fout</string>
+  <string name="standstill_report_reason_not_ready">Goederen niet beschikbaar</string>
+  <string name="standstill_report_reason_other">Andere reden</string>
+  <string name="standstill_report_send">Laten weten dat je stilstaat</string>
+  <string name="standstill_report_title">Waarom sta je stil?</string>
+  <string name="status_active">Actief</string>
+  <string name="status_banned">Verboden</string>
+  <string name="status_inactive">Inactief</string>
+  <string name="status_new">Nieuw</string>
+  <string name="status_not_active">Niet actief</string>
+  <string name="status_pending">In afwachting</string>
+  <string name="status_removed">Verwijderd</string>
+  <string name="success_subtitle">Hoera! Je hebt weer een opdracht afgerond met Ontruck!</string>
+  <string name="sunday">Zondag</string>
+  <string name="support_conversation_reason_app">Problemen met de app</string>
+  <string name="support_conversation_reason_billing">Probleem met de facturatie</string>
+  <string name="support_conversation_reason_documentation">Juridische documentatie</string>
+  <string name="support_conversation_reason_fleet">Mijn vlootinformatie beheren</string>
+  <string name="support_conversation_reason_offer">Vraag over een offerte</string>
+  <string name="support_conversation_reason_other">Andere problemen</string>
+  <string name="support_conversation_reason_planning">Ladingen inplannen</string>
+  <string name="support_conversation_reason_title">Ondersteuning niet gerelateerd aan een lading</string>
+  <string name="support_conversations_title">Support Opdrachten</string>
+  <string name="support_empty_conversations_message">Om een gesprek over een lading te starten, ga je naar de details van de lading en klik je op \"Support\" om een nieuw gesprek te starten</string>
+  <string name="support_empty_conversations_title">Je hebt geen open gesprekken</string>
+  <string name="support_title">Support</string>
+  <string name="tabs_seccion_jobs">Opdrachten</string>
+  <string name="tabs_seccion_offers">Aanbod</string>
+  <string name="tabs_section_chat">Chat</string>
+  <string name="tabs_section_profile">Profiel</string>
+  <string name="tabs_section_tickets">Support</string>
+  <string name="terms_and_conditions">We hebben onze %s bijgewerkt.
+We hebben je toestemming nodig om je gegevens en locatie op te slaan.</string>
+  <string name="terms_and_conditions_alert_accept">Accepteren</string>
+  <string name="terms_and_conditions_alert_feedback">Log in met uw telefoonnummer en wachtwoord en accepteer vervolgens de algemene voorwaarden.</string>
+  <string name="terms_and_conditions_alert_reject">Niet accepteren</string>
+  <string name="thursday">Donderdag</string>
+  <string name="ticket_closed_status">Gesloten</string>
+  <string name="ticket_hold_status">In afwachting</string>
+  <string name="ticket_in_progress_status">Bezig</string>
+  <string name="ticket_list_me">Mij</string>
+  <string name="ticket_new_status">Nieuw</string>
+  <string name="ticket_open_status">Openstaand</string>
+  <string name="ticket_pending_status">In afwachting</string>
+  <string name="ticket_solved_status">Opgelost</string>
+  <string name="tickets_empty_messages_hint">Beschrijf het probleem dat u meldt</string>
+  <string name="tickets_messages_hint">Voeg details toe die ons helpen je probleem op te lossen</string>
+  <string name="tickets_writing_input">Schrijven</string>
+  <string name="to">tot</string>
+  <string name="today">Vandaag</string>
+  <string name="tomorrow">Morgen</string>
+  <string name="tuesday">Dinsdag</string>
+  <string name="update_alert_forced_message">Je moet een update uitvoeren</string>
+  <string name="update_alert_recommended_message">Nieuwe versie beschikbaar</string>
+  <string name="update_alert_title">Waarschuwing</string>
+  <string name="update_alert_update">Update</string>
+  <string name="user_availability_confirm_message">Als dat zo is, zullen we ons best doen om een opdracht voor je te vinden.</string>
+  <string name="user_availability_confirm_title">Ben je beschikbaar?</string>
+  <string name="user_recover_password_instruction_message">Je ontvangt een sms waarmee je toegang krijgt tot jouw wachtwoord</string>
+  <string name="user_recover_password_instruction_title">Voer je telefoonnummer in</string>
+  <string name="user_recover_password_link">Ik ben mijn wachtwoord vergeten</string>
+  <string name="user_show_password_instruction_message">Het kan enkele seconden duren voordat het wachtwoord binnenkomt.
+We raden je aan jouw wachtwoord op te slaan voor toegang in de toekomst.</string>
+  <string name="user_show_password_instruction_title">Sms is verzonden</string>
+  <string name="user_show_password_no_sms">Heb je de sms niet ontvangen?</string>
+  <string name="vehicle_add_title">Welk type voertuig wil je toevoegen?</string>
+  <string name="vehicle_add_vehicle_title">Nieuw voertuig toevoegen</string>
+  <string name="vehicle_chooser_title">Voertuig selecteren</string>
+  <string name="vehicle_detail_box_height">Hoogte laadruimte (meters)</string>
+  <string name="vehicle_detail_box_length">Afmetingen van de laadruimte (meter)</string>
+  <string name="vehicle_detail_box_measures">Afmetingen laadruimte</string>
+  <string name="vehicle_detail_box_width">Breedte laadruimte (meters)</string>
+  <string name="vehicle_detail_capacity">Capaciteit</string>
+  <string name="vehicle_detail_capacity_section">Capaciteit van voertuig</string>
+  <string name="vehicle_detail_general_info">Algemeen</string>
+  <string name="vehicle_detail_general_section">Algemene informatie</string>
+  <string name="vehicle_detail_length">Totale lengte van voertuig (meter)</string>
+  <string name="vehicle_detail_max_load">Maximaal laadvermogen (kg)</string>
+  <string name="vehicle_detail_max_pallet">Maximumaantal pallets %s</string>
+  <string name="vehicle_detail_max_pallets">Maximumaantal Europallets</string>
+  <string name="vehicle_detail_measures_section">Afmetingen van de laadruimte</string>
+  <string name="vehicle_detail_mma">Bruto voertuiggewicht (kg)</string>
+  <string name="vehicle_detail_plate">Kentekennummer</string>
+  <string name="vehicle_detail_transport_card">Vrachtwagenrijbewijs (CE)</string>
+  <string name="vehicle_dialog_add_trailer_message">Om met Ontruck te werken, moet je ten minste één trekker en één oplegger hebben.</string>
+  <string name="vehicle_dialog_add_trailer_title">Een oplegger toevoegen</string>
+  <string name="vehicle_dialog_add_vehicle">Wil je nog een voertuig toevoegen?</string>
+  <string name="vehicle_edit_confirmation_message">Je gaat de postcode van het voertuig wijzigen. Weet je het zeker?</string>
+  <string name="vehicle_extras_liftgate">Laadklep</string>
+  <string name="vehicle_extras_side_load">Laden via zijkant</string>
+  <string name="vehicle_extras_title">Extra informatie voertuig:</string>
+  <string name="vehicle_extras_top_load">Laden via bovenkant</string>
+  <string name="vehicle_form_zipcode_help_subtitle">Geef de postcode op om opdrachten in de buurt van die locatie te ontvangen</string>
+  <string name="vehicle_form_zipcode_help_title">Waar parkeer je het voertuig?</string>
+  <string name="vehicle_form_zipcode_placeholder">Postcode</string>
+  <string name="vehicle_list_add_zipcode">Postcode toevoegen</string>
+  <string name="vehicle_list_empty_message">Neem via chat contact op met ons team om voertuigen toe te voegen en met ons te gaan werken.</string>
+  <string name="vehicle_list_empty_title">Er zijn nog geen voertuigen geregistreerd</string>
+  <string name="vehicle_selector_title">%s selecteren</string>
+  <plurals name="vehicle_type_box_van">
+    <item quantity="one">Bakwagen</item>
+    <item quantity="other">Bakwagens</item>
+  </plurals>
+  <plurals name="vehicle_type_full_trailer">
+    <item quantity="one">Trekker en oplegger</item>
+    <item quantity="other">Trekkers en opleggers</item>
+  </plurals>
+  <plurals name="vehicle_type_rigid_truck">
+    <item quantity="one">Vrachtwagen</item>
+    <item quantity="other">Vrachtwagens</item>
+  </plurals>
+  <plurals name="vehicle_type_semi_trailer">
+    <item quantity="one">Oplegger</item>
+    <item quantity="other">Opleggers</item>
+  </plurals>
+  <plurals name="vehicle_type_tractor_unit">
+    <item quantity="one">Trekker</item>
+    <item quantity="other">Trekkers</item>
+  </plurals>
+  <plurals name="vehicle_type_trailer">
+    <item quantity="one">Oplegger</item>
+    <item quantity="other">Opleggers</item>
+  </plurals>
+  <plurals name="vehicle_type_van">
+    <item quantity="one">Bestelwagen</item>
+    <item quantity="other">Bestelwagens</item>
+  </plurals>
+  <string name="warning_add_trailer">Je kunt geen oplegger toevoegen als je nog geen trekker heeft toegevoegd.</string>
+  <string name="warning_allow_location_message">We moeten toegang hebben tot je locatie om je te kunnen helpen bij elk incident dat zich tijdens de reis kan voordoen.</string>
+  <string name="warning_allow_location_title">Activeer je locatiegegevens</string>
+  <string name="warning_journey_assigned_fail">De tijd om te weigeren is verstreken</string>
+  <string name="warning_journey_unassign">Je kunt deze opdracht weigeren tot %s</string>
+  <string name="warning_journey_unassigned">Toewijzing van opdracht is opgeheven</string>
+  <string name="wednesday">Woensdag</string>
+  <string name="welcome_body">Je bent bijna klaar om je eerste Ontruck-opdracht aan te nemen. We hebben alleen nog informatie over je voertuigen nodig om je de beste lading te kunnen bieden. 
+
+Vergeet niet dat je ook je documenten naar ons team moet sturen.</string>
+  <string name="welcome_title">Hoi</string>
+  <string name="yesterday">Gisteren</string>
+</resources>
